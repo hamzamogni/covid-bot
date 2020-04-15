@@ -21,7 +21,7 @@ class clients extends Controller
     	if(env("BOT_MAINTENANCE") == true){
     		$response = [
     			"status" => "maintenance",
-    			"messages" => "انا سهم، وانا تحت الصيانة دابا والفريق اللي قادني كايعطيني معلومات أكثر باش نعرف نجاوب حسن على الاسئلة ديالكم"
+    			"messages" => ["انا سهم، وانا تحت الصيانة دابا والفريق اللي قادني كايعطيني معلومات أكثر باش نعرف نجاوب حسن على الاسئلة ديالكم"]
     		];
     		return Response($response);
     	}
