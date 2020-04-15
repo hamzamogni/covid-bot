@@ -27,7 +27,7 @@ class clients extends Controller
     	}
     	else {
     		$response = Http::post("http://localhost:5000/", [
-	            "messages" => $message
+	            "message" => $message
 	        ]);
 
 	    	return Response($response);
