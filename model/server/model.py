@@ -1,13 +1,12 @@
-import sys
 import numpy
 import requests
 import json
-import random
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
 
-
+import os
+import io
 
 class Net():
   def __init__(self, message):
@@ -29,8 +28,7 @@ class Net():
 
 
   def main(self):
-    import io
-    data = json.load(io.open('/srv/http/cobot/ml/dataar.json', 'r', encoding='utf-8-sig'))
+    data = json.load(io.open(os.getenv("JSON_PATH"), 'r', encoding='utf-8-sig'))
 
     words = []
     labels = []
@@ -55,7 +53,7 @@ class Net():
 
 
     headers = {"content-type": "application/json"}
-    json_response = requests.post('http://35.211.212.220:5001/v1/models/cobot:predict', data=my_data, headers=headers)
+    json_response = requests.post(os.getenv("MODEL_API_URL"), data=my_data, headers=headers)
 
     results = json.loads(json_response.text)
 
@@ -68,14 +66,14 @@ class Net():
           if tg['tag'] == tag:
               responses = tg['responses']
       
-      
+
       return json.dumps({
         "status": "success",
         "confidence": results[0][results_index],
-        "message": random.choice(responses)
+        "messages": responses
         })
     else:
       return json.dumps({
         "status": "error",
-        "message": "sorry I couldn't get what you mean!"
+        "message": "المعذرة لم استطع ان افهم سؤالك ، هل يمكنك إعادة صياغته"
         })
