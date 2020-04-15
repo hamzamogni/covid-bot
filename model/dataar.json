@@ -136,9 +136,7 @@
         " شحال من واحد مصاب ",
         "شحال من واحد برا"
       ],
-      "responses": [
-        "The data here should be from api"
-      ]
+      "responses": ["The data here should be from api"]
     },
     {
       "tag": "severity",
@@ -313,9 +311,7 @@
         "وقوع طفرة",
         "تطور الفيروس"
       ],
-      "responses": [
-        ""
-      ]
+      "responses": [""]
     },
     {
       "tag": "Vaccine",
@@ -379,33 +375,43 @@
         "covid-19",
         "chno hwa corona",
         "chno hwa covid",
-        "shnahwa corona",
+        "shnahwa coron",
+        "ashnahowa corona",
+        "achna howa corona",
         "shnahwa covid",
+        "shna hwa covid",
         "chno hwa mrd alcorona",
+        "chno hwa mard alcorona",
         "chno hwa virus corona",
+        "chno howa virus corona",
         "chno corona",
         "chno corona",
-        "chno hya alcorona",
+        "chno hya corona",
+        "achno hya corona",
         "chnahya corona",
         "ach kat3ni corona",
         "3tini des informations 3la corona",
         "3tini des informations 3la covid",
         "ash kat3ref 3la corona",
-        "ach khasni n3ref 3la corona",
+        " ach khasni n3ref 3la corona",
         "chno kat3ni corona",
         "chni hya corona",
         "fhmny corona",
-        "virus ola microbe",
-        "wach corona virus",
-        "wach corona mkroub",
+        "fahamny corona",
+        "fhamny corona",
+        " virus ola microbe",
+        " wach corona virus",
+        " wach corona mkroub",
+        " wach corona mikroub",
         "wach corona microbe",
         "baghi ne3rf ktr 3la corona",
         "chreh lya corona",
-        "hder lya 3la corona",
-        "chno hya la definition dyal had le virus"
+        " hder lya 3la corona",
+        "chno hya la definition dyal had le virus",
+        "chno hya la definition dyal had lvirus "
       ],
       "responses": [
-        "يعد فيروس كورونا الجديد سلالة جديدة من فيروسات كورونا تم التعرف عليها لأول مرة في جمهورية الصين الشعبية"
+        "فيروسات كورونا هي فصيلة كبيرة من الفيروسات التي قد تسبب المرض للحيوان والإنسان.  ومن المعروف أن عدداً من فيروسات كورونا تسبب لدى البشر حالات عدوى الجهاز التنفسي التي تتراوح حدتها من نزلات البرد الشائعة إلى الأمراض الأشد وخامة مثل متلازمة الشرق الأوسط التنفسية (ميرس) والمتلازمة التنفسية الحادة الوخيمة (السارس). ويسبب فيروس كورونا المُكتشف مؤخراً مرض فيروس كورونا كوفيد-19."
       ],
       "context_set": ""
     },
@@ -413,16 +419,23 @@
       "tag": "appearancefr",
       "patterns": [
         "mnash ja le virus",
+        "mnash ja lvirus",
         "mnin ja le virus",
+        "mnin ja lvirus",
         "mnin bda le virus",
+        " mnin bda lvirus",
         "fin bda le virus",
+        "fin bda lvirus",
         "wach corona fabriqué",
         "wach corona mo2amara",
         "wach corona jay mn alkhfash",
+        "wach corona jay mn lkhofash",
+        "wach corona jay mn lkhofach",
+        "wach corona jay mn l5ofach",
         "kifach bdat corona",
         "kifach bda corona",
-        "kifach bda covid 19",
-        "kifach tsllt 3lina corona",
+        "kifach bda covid19",
+        "kifach tsllat 3lina corona",
         "fin ban had corona awl mrh",
         "kifach bda corona",
         "mnin ja corona",
@@ -439,12 +452,18 @@
       "tag": "Lifetimefr",
       "patterns": [
         "9dash kayb9a le virus 7ey",
+        "9dach kayb9a lvirus 7ay",
         "ch7al kay3ich le virus",
+        "ch7al kay3ich lvirus",
         "ch7al mn sa3a kyb9a le virus 7ey",
+        "ch7al mn sa3a kyb9a lvirus 7ay",
         "ch7al dyal lwe9t kayb9a le virus sur les surfaces",
+        "ch7al dyal lwe9t kayb9a lvirus 3la sto7a",
         "ch7al kay3ich",
+        "ch7al kay3ich 3la bara",
         "ch7al kay3ich 3la bra",
         "wash lvirus kat9tlo chems",
+        "wash lvirus kat9tlo chams",
         "wach kay3ich f les surfaces"
       ],
       "responses": [
@@ -456,16 +475,27 @@
       "tag": "Emergencyfr",
       "patterns": [
         "lconfinement",
+        "confinement",
+        "le confinement",
         "baghi rokhssa dyal lkhdma",
         "imta ghaysali lconfinement",
         "le voyage",
+        "lvoyage",
+        "voyage",
         "baghi nsafer",
         "baghi nmchi lkhdma",
+        "l7ajr si7i",
+        "7ajr si7i",
+        "7ajar sihi",
+        "7jr si7i",
         "wach alhajr si7i ghayb9a dima",
+        "imta ghaysali  alhajr si7i",
         "imta ghaysali l confinement",
         "imta ghan9dero nkhrejo",
         "wach lconfinement aysali cheher jay",
-        "amta ghatsaly halat tawari2"
+        "amta ghatsaly halat tawari2",
+        "imta ghaytl9ona",
+        "wa imta ghaytl9ona"
       ],
       "responses": [
         "أن حالة الطوارئ الصحية وتقييد الحركة في البلاد لأجل غير مسمى، يعد وسيلة لا محيد عنها لإبقاء فيروس كورونا تحت السيطرة، مشددا على أن ذلك لا يعني وقف عجلة الاقتصاد، ولكن اتخاذ تدابير استثنائية تستوجب الحد من حركة المواطنين، من خلال اشتراط مغادرة مقرات السكن باستصدار وثيقة رسمية لدى رجال وأعوان السلطة، وفق حالات معينة. وأضاف أن هذه الحالات تم تحديدها في  التنقل للعمل بالنسبة للإدارات والمؤسسات المفتوحة، بما فيها الشركات والمصانع والأشغال الفلاحية، والمحلات والفضاءات التجارية ذات الارتباط بالمعيش اليومي للمواطن، والصيدليات، والقطاع البنكي والمصرفي، ومحطات التزود بالوقود، والمصحات والعيادات الطبية، ووكالات شركات الاتصالات، والمهن الحرة الضرورية، ومحلات بيع مواد التنظيف"
@@ -478,9 +508,15 @@
         "kifach da3m",
         "kifach ntsjl fda3m",
         "da3m dyal Ramed",
+        "da3m dyal Ramid",
+        "da3m dyal Rmid",
+        "da3m dyal Rmd",
+        "daam",
         "achno khasni ndir bash nakhd da3m",
         "wach ghadi nstafd mn da3m",
         "numero dyal Ramed",
+        "numero dyal Ramid",
+        "numero dyal Rmid",
         "ta3wid",
         "da3m lmali"
       ],
@@ -496,9 +532,7 @@
         "ch7al mn wa7d mat",
         "ch7al mn wa7d bra"
       ],
-      "responses": [
-        "The data here should be from api"
-      ]
+      "responses": ["The data here should be from api"]
     },
     {
       "tag": "severityfr",
@@ -513,7 +547,13 @@
         "had lmerd kay9tl",
         "corona o les enfants",
         "corona o drari sghar",
-        "wach ghanmout ola ghan3ich"
+        "wach ghanmout ola ghan3ich",
+        "wach corona kat9tel",
+        "wach corona 9atel",
+        "wach corona 9atal",
+        "corona kat9tel",
+        "corona kay9tel",
+        "corona kay9tal"
       ],
       "responses": [
         "إن المرض الذي تسببه العدوى بفيروس كورونا المستجد (كوفيد-19) خفيف بشكل عام، لاسيما عند الأطفال والشباب. ومع ذلك، فإنه يمكن أن يسبب مرضًا خطيرًا، إذ يحتاج نحو شخص واحد من كل 5 أشخاص مصابين بهذا المرض إلى تلقّي الرعاية في المستشفى. لذا، فإن من الطبيعي أن يشعر الناس بالقلق إزاء كيفية تأثير فاشية مرض كوفيد-19 عليهم وعلى أحبائهم.ويمكننا توجيه قلقنا على النحو الصحيح بتحويله إلى إجراءات لحماية أنفسنا وأحبائنا ومجتمعاتنا المحلية. وعلى رأس هذه الإجراءات غسل اليدين بشكل منتظم ومسهب واتّباع ممارسات النظافة التنفسية الجيدة. ثانيا، الاطلاع على مشورة السلطات الصحية والتقيّد بها، بما في ذلك القيود التي قد تُفرض على السفر والتنقل والتجمعات"
@@ -538,26 +578,49 @@
       "tag": "protectionfr",
       "patterns": [
         "wach n9der nproteger rassi mn corona",
+        "wach n9der n7mi rassi mn corona",
         "chno ndir",
         "kifach n7mi rassi",
         "protection",
+        "ta39im",
+        "wiakaya",
+        "woqaya",
+        "wokaya",
+        "wiqaya",
+        "wikaya",
+        "n9i rasi",
+        "nw9i rassi",
+        "n9i rassi man corona",
+        "kifach twqi rasak man corona",
+        "kifach n3ml woqaya",
         "chno ne9dr ndir",
         "chi nasi7a 3afak",
-        "ta39im"
+        "ta39im",
+        "kefach n7mi rasi man corona",
+        "kefach ne7mi rasi men corona",
+        "kifach na7mi rassi men corona"
       ],
       "responses": [
-        "نظف يديك جيداً بانتظام بفركهما بمطهر كحولي لليدين أو بغسلهما بالماء والصابون احتفظ بمسافة لا تقل عن متر واحد بينك وبين أي شخص يسعل أو يعطس. تجنب لمس عينيك وأنفك وفمك. تأكد من اتّباعك أنت والمحيطين بك لممارسات النظافة التنفسية الجيدة. ويعني ذلك أن تغطي فمك وأنفك بكوعك المثني أو بمنديل ورقي عند السعال أو العطس، ثم التخلص من المنديل المستعمل على الفور. تجنب الاتصال المباشر مع أي شخص يعاني من الأعراض المذكورة أو الالتهاب التنفسي الحاد."
+        "نظف يديك جيداً بانتظام بفركهما بمطهر كحولي لليدين أو بغسلهما بالماء والصابون. احتفظ بمسافة لا تقل عن متر واحد بينك وبين أي شخص يسعل أو يعطس. تجنب لمس عينيك وأنفك وفمك. تأكد من اتّباعك أنت والمحيطين بك لممارسات النظافة التنفسية الجيدة. ويعني ذلك أن تغطي فمك وأنفك بكوعك المثني أو بمنديل ورقي عند السعال أو العطس، ثم التخلص من المنديل المستعمل على الفور. تجنب الاتصال المباشر مع أي شخص يعاني من الأعراض المذكورة أو الالتهاب التنفسي الحاد. اطلع باستمرار على آخر تطورات مرض كوفيد-19. واتّبع المشورة التي يسديها مقدم الرعاية الصحية أو سلطات الصحة العمومية الوطنية والمحلية أو صاحب العمل بشأن كيفية حماية نفسك والآخرين من مرض كوفيد-19."
       ]
     },
     {
       "tag": "Spreadfr",
       "patterns": [
         "kifach kayntacher le virus",
+        "kifach kayntacher corona",
+        "kifach kayntacher lvirus",
         "wach le virus kayntacher f l'air",
+        "wach corona kayntacher f l'air",
+        "wach lvirus kayntacher f l'air",
         "wach le virus kaynta9l f lhwa",
+        "wach corona kaynta9l f lhwa",
+        "wach lvirus kaynta9l f lhawa2",
         "wach le virus kaynta9l l les animaux",
-        "wach le virus kaynta9l l7ayawanat",
-        "kifach kaynta9l le virus"
+        "wach lvirus kaynta9l l7ayawanat",
+        "kifach kaynta9l le virus",
+        "kifach kaynta9l lvirus",
+        "kifach kaynta9l corona"
       ],
       "responses": [
         "فيروس كورونا الجديد هو فيروس تنفسي ينتشر بشكل أساسي من خلال القطرات المتولدة عندما يسعل الشخص المصاب أو يعطس ، أو من خلال قطرات اللعاب أو الإفرازات من الأنف.  ",
@@ -572,7 +635,9 @@
         "kifach kayddar le test",
         "ch7al kaydwwz le test",
         "ch7al kaykon le test",
-        "le test"
+        "le test",
+        "tist",
+        "test"
       ],
       "responses": [
         "تبدأ جميع الاختبارات التي يتم إجراؤها حاليًا تقريبًا بأخذ عينة إما من الأنف أو الحلق أو كليهما باستخدام مسحة خاصة.",
@@ -590,9 +655,7 @@
         "wach le virus kayttewr",
         "wach momkin le virus iwli plus dangereux ila w93at fih tafra"
       ],
-      "responses": [
-        ""
-      ]
+      "responses": ["لا يزال البحث جاري في هذا المجال"]
     },
     {
       "tag": "Vaccinefr",
@@ -600,10 +663,13 @@
         "wach kayn 3ilaj",
         "wach kayn vaccin",
         "imta ghayl9aw dwa",
-        "wach l9aw dwa"
+        "wach l9aw dwa",
+        "dawa2 l corona",
+        "achno a7san dwa dyal corona",
+        "kifach dawa man corona"
       ],
       "responses": [
-        "عندما يكون المرض جديدًا ، لا يوجد لقاح حتى يتم تطويره. قد يستغرق تطوير لقاح جديد عدة سنوات."
+        "ليس بعد. لا يوجد حتى يومنا هذا لقاح ولا دواء محدد مضاد للفيروسات للوقاية من مرض كوفيد-19 أو علاجه. ومع ذلك، فينبغي أن يتلقى المصابون به الرعاية لتخفيف الأعراض. وينبغي إدخال الأشخاص المصابين بمرض وخيم إلى المستشفيات. ويتعافى معظم المرضى بفضل الرعاية الداعمة"
       ]
     },
     {
@@ -613,7 +679,9 @@
         "wach momkin n3awd nmred b le virus",
         "wach li bra kay3awd imred",
         "mana3a",
-        "n3awd nmred"
+        "n3awd nmred",
+        "manaa",
+        "alamana3a"
       ],
       "responses": [
         "ما يزال غير واضح ما إذا كان الأشخاص الذين يتعافون من الفيروس سيكونون محصنين ضد الإصابة به مجددا ، وإذا كان الأمر كذلك ، فمازال يبحث العلماء عن كم من الوقت ستستمر هذه المناعة."
