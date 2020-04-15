@@ -22,4 +22,4 @@ cobot_admin/npm-debug.log*
 cobot_admin/yarn-debug.log*
 cobot_admin/yarn-error.log*
 
-*lock
+*.lock
