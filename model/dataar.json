@@ -185,6 +185,7 @@
         "واش نقدر نحمي راسي من كورونا",
         "شنو هي سبل الوقاية من كورونا",
         "كيفاش نحميو ريوسنا من كورونا",
+        "كيفاش نحمي راسي من كورونا",
         "الوقاية",
         "وقاية",
         " الحماية",
@@ -369,9 +370,66 @@
       ]
     },
     {
+      "tag": "salam",
+      "patterns": [
+        "salam",
+        "salut",
+        "slt",
+        "slm",
+        "salam",
+        "hey",
+        "hello",
+        "hi",
+        "salamo3alaykom",
+        "salam 3alaykom",
+        "slam",
+        "salm",
+        "hai",
+        "hii",
+        "sahm",
+        "bonjour",
+        "bonsoir",
+        "cc",
+        "coucou",
+        "coco",
+        "bnsr",
+        "bjr",
+        "bnjr",
+        "bsr"
+      ],
+      "responses": [
+        "السلام انا سهم , اول بوت بالدارجة المغربية على كورونا . عندك شي اسئلة على كوفيد19 , سولني وأنا غانجاوبك . "
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ambot",
+      "patterns": [
+        "nta bot",
+        "wach nta bot",
+        "nta bnadm",
+        "nta insane",
+        "nta ai",
+        "nta daka2 sina3i",
+        "nta 3aych",
+        "achno nta",
+        "achnahowa saham",
+        "bghit n3rf 3la sahm",
+        "chkon 9ad sahm",
+        "sahm nta hna ",
+        "are u humain",
+        "homme"
+      ],
+      "responses": [
+        "انا سهم , بوت مطور بتقنيات الذكاء الصناعي , الهدف من الانشاء ديالي هو الاجابة عن الاسئلة المتعلقة بكورونا بالدارجة"
+      ],
+      "context_set": ""
+    },
+    {
       "tag": "definitionfr",
       "patterns": [
         "corona",
+        "Coronavirus",
         "covid-19",
         "chno hwa corona",
         "chno hwa covid",
@@ -399,16 +457,16 @@
         "fhmny corona",
         "fahamny corona",
         "fhamny corona",
-        " virus ola microbe",
-        " wach corona virus",
-        " wach corona mkroub",
+        "virus ola microbe",
+        "wach corona virus",
+        "wach corona mkroub",
         " wach corona mikroub",
         "wach corona microbe",
         "baghi ne3rf ktr 3la corona",
         "chreh lya corona",
-        " hder lya 3la corona",
+        "hder lya 3la corona",
         "chno hya la definition dyal had le virus",
-        "chno hya la definition dyal had lvirus "
+        "chno hya la definition dyal had lvirus"
       ],
       "responses": [
         "فيروسات كورونا هي فصيلة كبيرة من الفيروسات التي قد تسبب المرض للحيوان والإنسان.  ومن المعروف أن عدداً من فيروسات كورونا تسبب لدى البشر حالات عدوى الجهاز التنفسي التي تتراوح حدتها من نزلات البرد الشائعة إلى الأمراض الأشد وخامة مثل متلازمة الشرق الأوسط التنفسية (ميرس) والمتلازمة التنفسية الحادة الوخيمة (السارس). ويسبب فيروس كورونا المُكتشف مؤخراً مرض فيروس كورونا كوفيد-19."
@@ -441,7 +499,9 @@
         "mnin ja corona",
         "mnin ja had corona",
         "wach covid 19 tkhle9 f labo",
-        "wach had le virus naturel ola mfbrk"
+        "wach had le virus naturel ola mfbrk",
+        "Wach l'Amérique li gadat l virus",
+        "Wach bsa7 7itach chiwa7d chrb soba d lkhofache"
       ],
       "responses": [
         "أول من أصيب بالفيروس ذهب إلى سوق ووهان في مقاطعة هوبي بالصين. ولذلك يرجح أن المرض انتقل عن طريق .الحيوانات ، ولكن لم يتم تأكيد أصله"
@@ -467,7 +527,8 @@
         "wach kay3ich f les surfaces"
       ],
       "responses": [
-        "لا يُعرف على وجه اليقين فترة استمرار الفيروس المسبب لمرض كوفيد-19 حياً على الأسطح، ولكن يبدو أنه يشبه في ذلك سائر فيروسات كورونا. وتشير الدراسات إلى أن فيروسات كورونا  بما في ذلك المعلومات الأولية عن الفيروس المسبب لمرض كوفيد-19 قد تظل حية على الأسطح لبضع ساعات أو لعدة أيام. وقد يختلف ذلك باختلاف الظروف مثل نوع السطح ودرجة الحرارة أو الرطوبة البيئية. على الجلد عشر دقائق في الهواء ثلاث ساعات على القطع النقدية أربع ساعات على الشعر أو الثياب 12 ساعة على الورق 24 ساعة على البلاستيك من يوم إلى يومين"
+        "لا يُعرف على وجه اليقين فترة استمرار الفيروس المسبب لمرض كوفيد-19 حياً على الأسطح، ولكن يبدو أنه يشبه في ذلك سائر فيروسات كورونا. وتشير الدراسات إلى أن فيروسات كورونا  بما في ذلك المعلومات الأولية عن الفيروس المسبب لمرض كوفيد-19 قد تظل حية على الأسطح لبضع ساعات أو لعدة أيام",
+        " وقد يختلف ذلك باختلاف الظروف مثل نوع السطح ودرجة الحرارة أو الرطوبة البيئية. على الجلد عشر دقائق في الهواء ثلاث ساعات على القطع النقدية أربع ساعات على الشعر أو الثياب 12 ساعة على الورق 24 ساعة على البلاستيك من يوم إلى يوم"
       ],
       "context_set": ""
     },
@@ -495,7 +556,9 @@
         "wach lconfinement aysali cheher jay",
         "amta ghatsaly halat tawari2",
         "imta ghaytl9ona",
-        "wa imta ghaytl9ona"
+        "wa imta ghaytl9ona",
+        "imta ratsali corona",
+        "wach coronna ratawal"
       ],
       "responses": [
         "أن حالة الطوارئ الصحية وتقييد الحركة في البلاد لأجل غير مسمى، يعد وسيلة لا محيد عنها لإبقاء فيروس كورونا تحت السيطرة، مشددا على أن ذلك لا يعني وقف عجلة الاقتصاد، ولكن اتخاذ تدابير استثنائية تستوجب الحد من حركة المواطنين، من خلال اشتراط مغادرة مقرات السكن باستصدار وثيقة رسمية لدى رجال وأعوان السلطة، وفق حالات معينة. وأضاف أن هذه الحالات تم تحديدها في  التنقل للعمل بالنسبة للإدارات والمؤسسات المفتوحة، بما فيها الشركات والمصانع والأشغال الفلاحية، والمحلات والفضاءات التجارية ذات الارتباط بالمعيش اليومي للمواطن، والصيدليات، والقطاع البنكي والمصرفي، ومحطات التزود بالوقود، والمصحات والعيادات الطبية، ووكالات شركات الاتصالات، والمهن الحرة الضرورية، ومحلات بيع مواد التنظيف"
@@ -541,6 +604,9 @@
         "wach corona merd khatir",
         "khayf mn corona",
         "corona khatira",
+        "wach corona kaydi lwafat",
+        "wach corona katchad nas sghar",
+        "wach corona katchad nas srar",
         "wach corona kat9tl",
         "wach ghat9tlni corona",
         "kay9tl",
@@ -553,7 +619,29 @@
         "wach corona 9atal",
         "corona kat9tel",
         "corona kay9tel",
-        "corona kay9tal"
+        "corona kay9tal",
+        "Wach corona kat9tl"
+      ],
+      "responses": [
+        "إن المرض الذي تسببه العدوى بفيروس كورونا المستجد (كوفيد-19) خفيف بشكل عام، لاسيما عند الأطفال والشباب. ومع ذلك، فإنه يمكن أن يسبب مرضًا خطيرًا، إذ يحتاج نحو شخص واحد من كل 5 أشخاص مصابين بهذا المرض إلى تلقّي الرعاية في المستشفى. لذا، فإن من الطبيعي أن يشعر الناس بالقلق إزاء كيفية تأثير فاشية مرض كوفيد-19 عليهم وعلى أحبائهم.ويمكننا توجيه قلقنا على النحو الصحيح بتحويله إلى إجراءات لحماية أنفسنا وأحبائنا ومجتمعاتنا المحلية. وعلى رأس هذه الإجراءات غسل اليدين بشكل منتظم ومسهب واتّباع ممارسات النظافة التنفسية الجيدة. ثانيا، الاطلاع على مشورة السلطات الصحية والتقيّد بها، بما في ذلك القيود التي قد تُفرض على السفر والتنقل والتجمعات"
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "cho homa a3rad corona",
+        "kifach n3rf fya corona",
+        "achno homa l2a3rad dyal korona",
+        "bach kat7ass mali katkon fik corona",
+        "kifach kat7ass mali katkon fik corona",
+        "wach rwa7 man a3rad corona",
+        "wach s5ana man a3rad corona",
+        "wach skhana man l2a3rad",
+        "Chnahoma l2a3rad dyal l virus",
+        "chno a3rad covid",
+        "chno aarad corona",
+        "bach ghadi n3rf rani mrid",
+        "ach kayw93 li mrid"
       ],
       "responses": [
         "إن المرض الذي تسببه العدوى بفيروس كورونا المستجد (كوفيد-19) خفيف بشكل عام، لاسيما عند الأطفال والشباب. ومع ذلك، فإنه يمكن أن يسبب مرضًا خطيرًا، إذ يحتاج نحو شخص واحد من كل 5 أشخاص مصابين بهذا المرض إلى تلقّي الرعاية في المستشفى. لذا، فإن من الطبيعي أن يشعر الناس بالقلق إزاء كيفية تأثير فاشية مرض كوفيد-19 عليهم وعلى أحبائهم.ويمكننا توجيه قلقنا على النحو الصحيح بتحويله إلى إجراءات لحماية أنفسنا وأحبائنا ومجتمعاتنا المحلية. وعلى رأس هذه الإجراءات غسل اليدين بشكل منتظم ومسهب واتّباع ممارسات النظافة التنفسية الجيدة. ثانيا، الاطلاع على مشورة السلطات الصحية والتقيّد بها، بما في ذلك القيود التي قد تُفرض على السفر والتنقل والتجمعات"
@@ -595,10 +683,14 @@
         "kifach n3ml woqaya",
         "chno ne9dr ndir",
         "chi nasi7a 3afak",
+        "wach lkamama momkin tw9i man lcorona",
+        "wach lkmama t9dar t7mina 100% man corona",
+        "wach ligat kay7miwna man corona",
         "ta39im",
         "kefach n7mi rasi man corona",
         "kefach ne7mi rasi men corona",
-        "kifach na7mi rassi men corona"
+        "kifach na7mi rassi men corona",
+        "Wach darori l mask"
       ],
       "responses": [
         "نظف يديك جيداً بانتظام بفركهما بمطهر كحولي لليدين أو بغسلهما بالماء والصابون. احتفظ بمسافة لا تقل عن متر واحد بينك وبين أي شخص يسعل أو يعطس. تجنب لمس عينيك وأنفك وفمك. تأكد من اتّباعك أنت والمحيطين بك لممارسات النظافة التنفسية الجيدة. ويعني ذلك أن تغطي فمك وأنفك بكوعك المثني أو بمنديل ورقي عند السعال أو العطس، ثم التخلص من المنديل المستعمل على الفور. تجنب الاتصال المباشر مع أي شخص يعاني من الأعراض المذكورة أو الالتهاب التنفسي الحاد. اطلع باستمرار على آخر تطورات مرض كوفيد-19. واتّبع المشورة التي يسديها مقدم الرعاية الصحية أو سلطات الصحة العمومية الوطنية والمحلية أو صاحب العمل بشأن كيفية حماية نفسك والآخرين من مرض كوفيد-19."
@@ -620,7 +712,11 @@
         "wach lvirus kaynta9l l7ayawanat",
         "kifach kaynta9l le virus",
         "kifach kaynta9l lvirus",
-        "kifach kaynta9l corona"
+        "kifach kaynta9l corona",
+        "b7alach katsab corona",
+        "bhalach katssab b corona",
+        "wach korona katntachr bzarba",
+        "wach corona katnt9l bzarba"
       ],
       "responses": [
         "فيروس كورونا الجديد هو فيروس تنفسي ينتشر بشكل أساسي من خلال القطرات المتولدة عندما يسعل الشخص المصاب أو يعطس ، أو من خلال قطرات اللعاب أو الإفرازات من الأنف.  ",
@@ -662,11 +758,14 @@
       "patterns": [
         "wach kayn 3ilaj",
         "wach kayn vaccin",
+        "hal kayn chi dwa dyal corona",
         "imta ghayl9aw dwa",
         "wach l9aw dwa",
         "dawa2 l corona",
         "achno a7san dwa dyal corona",
-        "kifach dawa man corona"
+        "kifach dawa man corona",
+        "cloroqine",
+        "hedroxidechloroqine"
       ],
       "responses": [
         "ليس بعد. لا يوجد حتى يومنا هذا لقاح ولا دواء محدد مضاد للفيروسات للوقاية من مرض كوفيد-19 أو علاجه. ومع ذلك، فينبغي أن يتلقى المصابون به الرعاية لتخفيف الأعراض. وينبغي إدخال الأشخاص المصابين بمرض وخيم إلى المستشفيات. ويتعافى معظم المرضى بفضل الرعاية الداعمة"
@@ -678,6 +777,7 @@
         "wach le virus kay3tik mana3a",
         "wach momkin n3awd nmred b le virus",
         "wach li bra kay3awd imred",
+        "wach corona kay2tr 3la lmana3a",
         "mana3a",
         "n3awd nmred",
         "manaa",
