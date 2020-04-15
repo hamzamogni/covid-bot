@@ -21,13 +21,13 @@ class clients extends Controller
     	if(env("BOT_MAINTENANCE") == true){
     		$response = [
     			"status" => "maintenance",
-    			"message" => "انا سهم، وانا تحت الصيانة دابا والفريق اللي قادني كايعطيني معلومات أكثر باش نعرف نجاوب حسن على الاسئلة ديالكم"
+    			"messages" => "انا سهم، وانا تحت الصيانة دابا والفريق اللي قادني كايعطيني معلومات أكثر باش نعرف نجاوب حسن على الاسئلة ديالكم"
     		];
     		return Response($response);
     	}
     	else {
     		$response = Http::post("http://localhost:5000/", [
-	            "message" => $message
+	            "messages" => $message
 	        ]);
 
 	    	return Response($response);
