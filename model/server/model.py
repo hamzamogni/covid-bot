@@ -71,8 +71,8 @@ class Net():
       
       return json.dumps({
         "status": "success",
-        "prediction": results[0][results_index],
-        "confidence": random.choice(responses)
+        "confidence": results[0][results_index],
+        "message": random.choice(responses)
         })
     else:
       return json.dumps({
