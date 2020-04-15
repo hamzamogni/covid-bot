@@ -12,6 +12,14 @@ class clients extends Controller
 {
     public function predict(Request $request)
     {
+    	if(env("BOT_MAINTENANCE") == true){
+    		$response = [
+    			"status" => "maintenance",
+    			"message" => "انا سهم، وانا تحت الصيانة دابا والفريق اللي قادني كايعطيني معلومات أكثر باش نعرف نجاوب حسن على الاسئلة ديالكم"
+    		];
+    		return Response($response);
+    	}
+
     	$message = $request->message;
         
         $response = Http::post("http://localhost:5000/", [
