@@ -12,6 +12,12 @@ class clients extends Controller
 {
     public function predict(Request $request)
     {
+    	$validator = $request->validate([
+	        'message' => 'required|min:1',
+	    ]);
+	    
+    	$message = $request->message;
+
     	if(env("BOT_MAINTENANCE") == true){
     		$response = [
     			"status" => "maintenance",
@@ -20,13 +26,9 @@ class clients extends Controller
     		return Response($response);
     	}
 
-    	$message = $request->message;
-        
         $response = Http::post("http://localhost:5000/", [
             "message" => $message
         ]);
-
-
 
     	return Response($response);
     }
