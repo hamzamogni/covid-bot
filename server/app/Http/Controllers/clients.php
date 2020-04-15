@@ -15,7 +15,7 @@ class clients extends Controller
     	$validator = $request->validate([
 	        'message' => 'required|min:1',
 	    ]);
-	    
+
     	$message = $request->message;
 
     	if(env("BOT_MAINTENANCE") == true){
@@ -25,11 +25,13 @@ class clients extends Controller
     		];
     		return Response($response);
     	}
+    	else {
+    		$response = Http::post("http://localhost:5000/", [
+	            "message" => $message
+	        ]);
 
-        $response = Http::post("http://localhost:5000/", [
-            "message" => $message
-        ]);
-
-    	return Response($response);
+	    	return Response($response);
+    	}
+        
     }
 }
