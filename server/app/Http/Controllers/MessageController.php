@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Message;
+use App\Http\Resources\MessageResource;
 use Illuminate\Http\Request;
 
 class MessageController extends Controller
@@ -14,7 +15,8 @@ class MessageController extends Controller
      */
     public function index()
     {
-        //
+        $data = Message::where("parent_id", null)->with("replies")->get();
+        return Response(MessageResource::collection($data));
     }
 
     /**
