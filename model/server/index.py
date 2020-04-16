@@ -9,6 +9,9 @@ def index(name=None):
     if request.method == 'POST':
         message = request.json['message']
 
+        if len(message) < 3:
+        	message += "   "
+
         if TextBlob(message).detect_language() in ["en", "fr"] :
         	return json.dumps({
 		        "status": "error",
