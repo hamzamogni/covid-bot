@@ -9,7 +9,7 @@ def index(name=None):
     if request.method == 'POST':
         message = request.json['message']
 
-        if TextBlob(message).detect_language() != "ar":
+        if TextBlob(message).detect_language() in ["en", "fr"] :
         	return json.dumps({
 		        "status": "error",
 		        "messages": ["المرجو طرح الأسئلة المتعلقة بكورونا بالدارجة المغربية سواء بحروف عربية او لاتينية . سهم لازال تحت التطوير وسيتم اضافة اللغات الاخرى قريبا"]
