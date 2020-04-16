@@ -82,9 +82,9 @@ model.summary()
 
 import os
 
-#MODEL_DIR = tempfile.gettempdir()
-#version = 1
-export_path = "saved_model" #os.path.join(MODEL_DIR, str(version))
+MODEL_DIR = tempfile.gettempdir()
+version = 1
+export_path = os.path.join(MODEL_DIR, str(version))
 #print('export_path = {}\n'.format(export_path))
 
 tf.saved_model.save(
