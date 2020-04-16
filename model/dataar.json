@@ -428,9 +428,6 @@
     {
       "tag": "definitionfr",
       "patterns": [
-        "corona",
-        "Coronavirus",
-        "covid-19",
         "chno hwa corona",
         "chno hwa covid",
         "shnahwa coron",
@@ -641,7 +638,11 @@
         "chno a3rad covid",
         "chno aarad corona",
         "bach ghadi n3rf rani mrid",
-        "ach kayw93 li mrid"
+        "ach kayw93 li mrid",
+        "bach ghan7as ila kant mrid bcorona",
+        "wach skhana man l2a3rad",
+        "achno momkin yw93 lnas mrad bcorona",
+        "ana kan7ass bs5ana wach fya corona ?"
       ],
       "responses": [
         "تتمثل الأعراض الأكثر شيوعاً لمرض كوفيد-19 في",

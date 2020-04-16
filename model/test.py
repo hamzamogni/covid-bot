@@ -72,8 +72,8 @@ output = numpy.array(output)
 ####
 
 model = keras.Sequential([
-    tf.keras.layers.Dense(8, input_shape=(len(training[0]),)),
-    tf.keras.layers.Dense(8),
+    tf.keras.layers.Dense(20, input_shape=(len(training[0]),)),
+    tf.keras.layers.Dense(20),
     tf.keras.layers.Dense(len(output[0]), activation="softmax")
 ])
 
