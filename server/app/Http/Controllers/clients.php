@@ -7,6 +7,7 @@ use Symfony\Component\Process\Process;
 use Symfony\Component\Process\Exception\ProcessFailedException;
 
 use Illuminate\Support\Facades\Http;
+use App\Message;
 
 class clients extends Controller
 {
@@ -29,6 +30,22 @@ class clients extends Controller
     		$response = Http::post("http://localhost:5000/", [
 	            "message" => $message
 	        ]);
+
+            $parent = Message::create([
+                "message" => $message
+            ]);
+
+            $reply = "";
+            foreach ($response["messages"] as $key => $value)
+                $reply .= $value;
+
+
+            $reply = Message::create([
+                "message" => $reply
+            ]);
+
+            $reply->parent()->associate($parent);
+            $reply->save();
 
 	    	return Response($response);
     	}
