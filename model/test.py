@@ -7,9 +7,9 @@ import tensorflow as tf
 from tensorflow import keras
 import random
 import json
-import pickle
-
 import nltk
+import os
+import tempfile
 
 
 ####
@@ -80,7 +80,6 @@ model.compile(optimizer="adam", loss="categorical_crossentropy", metrics=["accur
 model.fit(training, output, epochs=1000, batch_size=8)
 model.summary()
 
-import os
 
 MODEL_DIR = tempfile.gettempdir()
 version = 1
@@ -92,44 +91,3 @@ tf.saved_model.save(
     export_path,
     signatures=None,
 )
-
-####
-# THIRD CELL
-####
-
-def bag_of_words(s, words):
-    bag = [0 for _ in range(len(words))]
-
-    s_words = nltk.word_tokenize(s)
-    s_words = [stemmer.stem(word.lower()) for word in s_words]
-
-    for se in s_words:
-        for i, w in enumerate(words):
-            if w == se:
-                bag[i] = 1
-            
-    return numpy.array(bag)
-
-
-def chat():
-    print("Start talking with the bot (type quit to stop)!")
-    while True:
-        inp = input("You: ")
-        if inp.lower() == "quit":
-            break
-
-        my_data = bag_of_words(inp, words)
-        my_data = numpy.reshape(my_data, (1, my_data.shape[0]))
-
-        results = model.predict(my_data) 
-        results_index = numpy.argmax(results)
-        tag = labels[results_index]
-
-        if results[0][results_index] > 0.7:
-          for tg in data["intents"]:
-              if tg['tag'] == tag:
-                  responses = tg['responses']
-          print(random.choice(responses), results[0][results_index])
-          #print(results)
-        else:
-          print("I didn't get your idea!!! Try again...")
