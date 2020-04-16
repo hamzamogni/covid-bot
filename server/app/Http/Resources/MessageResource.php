@@ -19,7 +19,7 @@ class MessageResource extends JsonResource
             "message" => $this->message,
             "created_at" => $this->created_at,
             'updated_at' => $this->updated_at,
-            "replies" => MessageResource::collection($this->replies),
+            "replies" => $this->when(!$this->is_reply(), MessageResource::collection($this->replies)),
         ];
     }
 }

@@ -19,5 +19,10 @@ class Message extends Model
     	return $this->belongsTo("App\Message");
     }
 
+    public function is_reply()
+    {
+    	return $this->parent_id != null;
+    }
+
 
 }
