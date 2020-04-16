@@ -77,7 +77,7 @@ model = keras.Sequential([
 ])
 
 model.compile(optimizer="adam", loss="categorical_crossentropy", metrics=["accuracy"])
-model.fit(training, output, epochs=100, batch_size=8)
+model.fit(training, output, epochs=1000, batch_size=8)
 model.summary()
 
 import os
