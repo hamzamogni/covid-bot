@@ -46,9 +46,9 @@ class MessageController extends Controller
      * @param  \App\Message  $message
      * @return \Illuminate\Http\Response
      */
-    public function show(Message $message)
+    public function show($id)
     {
-        //
+        return Response(new MessageResource(Message::find($id)));
     }
 
     /**
