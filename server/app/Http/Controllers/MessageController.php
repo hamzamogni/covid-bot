@@ -16,7 +16,7 @@ class MessageController extends Controller
      */
     public function index()
     {
-        $data = Message::where("parent_id", null)->with("replies")->paginate(2);
+        $data = Message::where("parent_id", null)->with("replies")->paginate(20);
         return Response(new MessageCollection($data));
     }
 
