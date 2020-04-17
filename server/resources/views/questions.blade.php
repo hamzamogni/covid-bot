@@ -85,7 +85,7 @@
             }
 
             componentDidMount() {
-                axios.get("http://35.211.212.220/api/messages")
+                axios.get("http://localhost/api/messages")
                     .then(res => {
                         this.setState({
                             messages: res.data.data,
