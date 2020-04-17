@@ -70,18 +70,6 @@ output = numpy.array(output)
 # SECOND CELL
 ####
 
-# model = Sequential()
-# model.add(Dense(128, input_shape=(len(training[0]),), activation='relu'))
-# model.add(Dropout(0.5))
-# model.add(Dense(64, activation='relu'))
-# model.add(Dropout(0.5))
-# model.add(Dense(len(output[0]), activation='softmax'))
-# # Compile model. Stochastic gradient descent with Nesterov accelerated gradient gives good results for this model
-# sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
-# model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
-# #fitting and saving the model
-
-
 
 model = keras.Sequential()
 model.add(tf.keras.layers.Dense(128, input_shape=(len(training[0]),), activation='relu'))
@@ -103,13 +91,8 @@ model.summary()
 MODEL_DIR = tempfile.gettempdir()
 version = 1
 export_path = os.path.join(MODEL_DIR, str(version))
-#print('export_path = {}\n'.format(export_path))
+print('export_path = {}\n'.format(export_path))
 
-# tf.saved_model.save(
-#     model,
-#     export_path,
-#     signatures=None,
-# )
 
 tf.keras.models.save_model(
     model,
@@ -121,3 +104,47 @@ tf.keras.models.save_model(
     options=None
 
 )
+
+
+def bag_of_words(s, words):
+    bag = [0 for _ in range(len(words))]
+
+    s_words = nltk.word_tokenize(s)
+    s_words = [stemmer.stem(word.lower()) for word in s_words]
+
+    for se in s_words:
+        for i, w in enumerate(words):
+            if w == se:
+                bag[i] = 1
+            
+    return numpy.array(bag)
+
+
+def chat():
+    print("Start talking with the bot (type quit to stop)!")
+    while True:
+        inp = input("You: ")
+        if inp.lower() == "quit":
+            break
+        
+        
+        my_data = bag_of_words(inp, words)
+        my_data = numpy.reshape(my_data, (1, my_data.shape[0]))
+        print(my_data)
+        results = model.predict(my_data) 
+            
+        #results = model2.predict(bag_of_words(inp, words))
+        results_index = numpy.argmax(results)
+        tag = labels[results_index]
+
+        if results[0][results_index] > 0.7:
+          for tg in data["intents"]:
+              if tg['tag'] == tag:
+                  responses = tg['responses']
+          print(random.choice(responses), results[0][results_index])
+          #print(results)
+        else:
+          print("I didn't get your idea!!! Try again...")
+
+
+# chat()
