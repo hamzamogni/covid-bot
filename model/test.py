@@ -70,20 +70,32 @@ output = numpy.array(output)
 # SECOND CELL
 ####
 
+# model = Sequential()
+# model.add(Dense(128, input_shape=(len(training[0]),), activation='relu'))
+# model.add(Dropout(0.5))
+# model.add(Dense(64, activation='relu'))
+# model.add(Dropout(0.5))
+# model.add(Dense(len(output[0]), activation='softmax'))
+# # Compile model. Stochastic gradient descent with Nesterov accelerated gradient gives good results for this model
+# sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
+# model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
+# #fitting and saving the model
 
-model = keras.Sequential([
-    tf.keras.layers.Dense(128, input_shape=(len(training[0]),), activation="relu"),
-    tf.keras.layers.Dropout(0.5),
-    tf.keras.layers.Dense(64, activation="relu"),
-    tf.keras.layers.Dropout(0.5),
-    tf.keras.layers.Dense(len(output[0]), activation="softmax")
-])
+
+
+model = keras.Sequential()
+model.add(tf.keras.layers.Dense(128, input_shape=(len(training[0]),), activation='relu'))
+model.add(tf.keras.layers.Dropout(0.5))
+model.add(tf.keras.layers.Dense(64, activation='relu'))
+model.add(tf.keras.layers.Dropout(0.5))
+model.add(tf.keras.layers.Dense(len(output[0]), activation='softmax'))
 
 # Compile model. Stochastic gradient descent with Nesterov accelerated gradient gives good results for this model
 sgd = keras.optimizers.SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
-#fitting and saving the model
 
+
+#fitting and saving the model
 model.fit(training, output, epochs=200, batch_size=5)
 model.summary()
 
@@ -91,10 +103,21 @@ model.summary()
 MODEL_DIR = tempfile.gettempdir()
 version = 1
 export_path = os.path.join(MODEL_DIR, str(version))
-print('export_path = {}\n'.format(export_path))
+#print('export_path = {}\n'.format(export_path))
 
+# tf.saved_model.save(
+#     model,
+#     export_path,
+#     signatures=None,
+# )
 
 tf.keras.models.save_model(
     model,
     export_path,
+    overwrite=True,
+    include_optimizer=True,
+    save_format=None,
+    signatures=None,
+    options=None
+
 )
