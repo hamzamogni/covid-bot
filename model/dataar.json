@@ -14,10 +14,13 @@
         "من انت",
         "واش نتا بوت",
         "نتا شنو",
-        "وافين"
+        "وافين",
+        "اسميتك",
+        "اسمك",
+        "ما اسمك"
       ],
       "responses": [
-        "السلام انا سهم , اول بوت بالدارجة المغربية على كورونا . عندك شي اسئلة على كوفيد19 , سولني وأنا غانجاوبك . "
+        "السلام انا سهم , اول بوت بالدارجة المغربية على كورونا . عندك شي اسئلة على كوفيد19 , سولني وأنا غانجاوبك . انا باقي فمرحلة ديال التطوير , لذلك كانتمنا تسولوا بزاف دالاسئلة باش نتعلم منها "
       ],
       "context_set": ""
     },
@@ -26,6 +29,7 @@
       "patterns": [
         "ما هي كرونا",
         "كوفيد-19",
+        "سير تمشي",
         "شنو هو كورونا",
         "شنو هو كوفيد",
         "شناهو كورونا",
@@ -151,6 +155,7 @@
       "tag": "stats",
       "patterns": [
         "ارقام كورونا",
+        "شحال الوفايات",
         "شنو هيا المستجدات على كرونا في المغرب",
         "شحال عدد الحالات المصابة ب فيروس كورونا في المغرب",
         "كم عدد الحالات المؤكدة",
@@ -175,6 +180,7 @@
       "tag": "severity",
       "patterns": [
         "هل ينبغي أن أشعر بالقلق من الإصابة بمرض كوفيد-19",
+        "ممكن نموت بكورونا",
         "واش خصني نخاف من كورونا",
         " واش كورونا مرض خطير",
         "نخافو من كورونا",
@@ -312,6 +318,11 @@
         "واش خاصني نلبس كمامة",
         "ضروري نلبس كمامة",
         "نلبس كمامة",
+        "نلبس الكمامات",
+        "الكمامة",
+        "الكمامات",
+        "كمامات",
+        "كمامة",
         "واش خاصني ضروري نلبس الكمامة",
         "واش الكمامة كتوقي"
       ],
@@ -423,6 +434,7 @@
       "tag": "thanks3arans",
       "patterns": [
         "chokran",
+        "shukran ela maelumat",
         "beselama",
         "Chokeran",
         "merci bc",
@@ -474,7 +486,7 @@
         "bsr"
       ],
       "responses": [
-        "السلام انا سهم , اول بوت بالدارجة المغربية على كورونا . عندك شي اسئلة على كوفيد19 , سولني وأنا غانجاوبك . "
+        "السلام انا سهم , اول بوت بالدارجة المغربية على كورونا . عندك شي اسئلة على كوفيد19 , سولني وأنا غانجاوبك . انا باقي فمرحلة ديال التطوير , لذلك كانتمنا تسولوا بزاف دالاسئلة باش نتعلم منها "
       ],
       "context_set": ""
     },
@@ -498,7 +510,7 @@
         "are u humain"
       ],
       "responses": [
-        "انا سهم , بوت مطور بتقنيات الذكاء الصناعي , الهدف من الانشاء ديالي هو الاجابة عن الاسئلة المتعلقة بكورونا بالدارجة"
+        "ا انا سهم , بوت مطور بتقنيات الذكاء الصناعي , الهدف من الانشاء ديالي هو الاجابة عن الاسئلة المتعلقة بكورونا بالدارجة انا باقي فمرحلة التطوير كانتمنا تسولوني اكثر عدد ديال الاسئلة غادي  يخليني نتعلم اكثر"
       ],
       "context_set": ""
     },
@@ -506,6 +518,7 @@
       "tag": "definitionfr",
       "patterns": [
         "Chnahia corona",
+        "wx korona",
         "shnu hya had covid19",
         "korona",
         "chnu hiya korona",
@@ -682,12 +695,17 @@
         "sh7al mn 7ala mu2akada",
         "ch7al dnas mrade daba",
         "Xhal mn wahd mrid b corona",
+        "ch7al mn wa7ed mat asahm", 
         "che7al men 7ala kayna f meghrib",
         "bghit n3raf sh7al mn 7ala kayna",
         "Ch7al men wahed mrid endna b lcorona f l maroc",
         "Chal men hala endna flmeghrib",
         "feen wsal dakchi",
+        "sh7al mn 7ala kayna fl3alam daba",
+        "bghit n3raf sh7al mn 7ala kayna",
+        "ch7al mn cas kayn f maghreb",
         "chhal men hala f maghribe",
+        "ch7al mn 7ala f meghrib",
         "ar9am",
         "ihsa2iyat",
         "7ala kaina",
@@ -716,6 +734,7 @@
       "tag": "severityfr",
       "patterns": [
         "wach khasni nkhaf mn corona",
+        "chno lkhotora dyal covid19",
         "uash ila jani 3an mout",
         "wesh y9der lwahed ymout",
         "Wach corona katqtl",
@@ -729,6 +748,7 @@
         "wach corona kat9tl",
         "wach ghat9tlni corona",
         "kay9tl",
+        "korona kat9tal",
         "had lmerd kay9tl",
         "corona o les enfants",
         "corona o drari sghar",
@@ -754,6 +774,7 @@
         "Bach nearfu rassna wach hamlin l coronavirus",
         "wash fya covid19",
         "kisebeb lmot",
+        "Chnu hya aearad Corona",
         "Bach n3erfu rassna wach Fina corona",
         "Kifach naaref rasi fia corona",
         "chnahuma marahil dyal corona",
@@ -788,7 +809,7 @@
         "a3rad fatrat hadana virus"
       ],
       "responses": [
-        " و تتمثل الأعراض الأكثر شيوعاً لمرض كوفيد-19 في ",
+        " تتمثل الأعراض الأكثر شيوعاً لمرض كوفيد-19 في",
         "الحمى",
         "الإرهاق",
         "السعال الجاف",
@@ -822,6 +843,7 @@
         "Kifach nhmiw rassna mn Corona",
         "kifach ntjenbo",
         "chno ndire bach manemredch",
+        "Kifach nhmiw rassna mn Corona",
         "wach n9der n7mi rassi mn corona",
         "kifach n9édro n7miw rosno mn corona",
         "Kifach antjeneb corona",
@@ -944,12 +966,13 @@
         "Nlbss lkmama",
         "Wach khasni darurii nlbss lkmama",
         "wach corona kay2tr 3la lmana3a",
+        "darori n3ml kemama",
+        "lkemama"
         "wach lkamama momkin tw9i man lcorona",
         "darori n3ml kemama",
-        "mana3a",
-        "n3awd nmred",
-        "manaa",
-        "alamana3a",
+        "kamama",
+        "alkamama",
+        "kamamat",
         "wach l mask darori lilwi9aya"
       ],
       "responses": [
