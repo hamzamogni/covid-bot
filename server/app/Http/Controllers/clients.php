@@ -6,25 +6,49 @@ use Illuminate\Http\Request;
 use Symfony\Component\Process\Process;
 use Symfony\Component\Process\Exception\ProcessFailedException;
 
+use Illuminate\Support\Facades\Http;
+use App\Message;
+
 class clients extends Controller
 {
     public function predict(Request $request)
     {
+    	$validator = $request->validate([
+	        'message' => 'required|min:1',
+	    ]);
+
     	$message = $request->message;
-    	// $cmd = escapeshellcmd("python3 " . env("MODEL_CLIENT_PATH") . " \"" . $message . " \"");
 
-    	$process = new Process(["python3", env("MODEL_CLIENT_PATH"), $message]);
-		$process->run();
+    	if(env("BOT_MAINTENANCE") == true){
+    		$response = [
+    			"status" => "maintenance",
+    			"messages" => ["انا سهم، وانا تحت الصيانة دابا والفريق اللي قادني كايعطيني معلومات أكثر باش نعرف نجاوب حسن على الاسئلة ديالكم"]
+    		];
+    		return Response($response);
+    	}
+    	else {
+    		$response = Http::post("http://localhost:5000/", [
+	            "message" => $message
+	        ]);
 
-		// executes after the command finishes
-		if (!$process->isSuccessful()) {
-		    throw new ProcessFailedException($process);
-		}
+            $parent = Message::create([
+                "message" => $message
+            ]);
 
-		$output = $process->getOutput();
+            $reply = "";
+            foreach ($response["messages"] as $key => $value)
+                $reply .= $value;
 
 
+            $reply = Message::create([
+                "message" => $reply
+            ]);
 
-    	return Response($output);
+            $reply->parent()->associate($parent);
+            $reply->save();
+
+	    	return Response($response);
+    	}
+        
     }
 }
