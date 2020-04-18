@@ -32,6 +32,11 @@ def crawl(name=None):
         country = request.args.get('country')
         if country == None:
             return jsonify({"error": "invalid query parameters"})
+
+        if len(country) < 4:
+            country = country.upper()
+        else:
+            country = country.title()
         
         crawler = Crawler()
         return jsonify(crawler.run(country))
