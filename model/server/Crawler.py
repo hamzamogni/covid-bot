@@ -1,5 +1,6 @@
 import urllib.request as ul
 from bs4 import BeautifulSoup
+from textblob import TextBlob
 
 
 class Crawler():
@@ -46,6 +47,7 @@ class Crawler():
 		
 		return {
 			"target": country,
+			"target_arab": str(TextBlob(country).translate(to="ar")),
 			"total_cases": row[1].text,
 			"new_cases": row[2].text,
 			"total_deaths": row[3].text,
