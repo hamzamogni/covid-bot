@@ -3,6 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+use Illuminate\Support\Facades\Http;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -23,3 +25,9 @@ Route::post("/predict", "clients@predict");
 Route::resources([
 	'messages' => "MessageController",
 ]);
+
+
+Route::get("/crawler/{country?}", function ($country = null) {
+	$response = Http::get("http://localhost:5000/crawler?country=" . $country);
+	return Response($response);
+});
