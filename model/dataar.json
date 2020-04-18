@@ -15,6 +15,8 @@
         "واش نتا بوت",
         "نتا شنو",
         "وافين",
+        "فين",
+        "فين أخويا",
         "اسميتك",
         "اسمك",
         "ما اسمك"
@@ -30,6 +32,7 @@
         "ما هي كرونا",
         "كوفيد-19",
         "سير تمشي",
+        "ما اسم العلمي للفيروس ",
         "شنو هو كورونا",
         "شنو هو كوفيد",
         "شناهو كورونا",
@@ -98,11 +101,14 @@
       "patterns": [
         "كم من الوقت يظل الفيروس حي ",
         "قداش كايبقى الفيروس حي",
+        "كم يعيش الفيروس على الاسطح",
         "شحال كيعيش الفيروس",
         "شحال من ساعة كيبقا الفيروس حي",
         "شحال ديال الوقت كيبقا الفيروس حي",
         "كم يعيش كورونا على الأجسام الصلبة",
         "شحال كيعيش",
+        "مدة حياة الفيروس",
+        "مدة بقاء الفيروس",
         "شحال كيعيش على برا",
         "واش الفيروس كتقتلو الشمس"
       ],
@@ -187,7 +193,7 @@
         "الكورونا خطيرة",
         "وش كورونا كاتقتل",
         "واش غتقتلني كورونا",
-        "هل كورونا خطير ؟",
+        "هل كورونا خطير ",
         "هاد لمرض كايقتل",
         "كورونا عندو تأثير على الأطفال",
         "كورونا عندو تأثير على الدراري الصغار",
@@ -206,7 +212,7 @@
         "كيفاش نعرف رسي مريض",
         "كيفاش نعرف راسي مريض",
         "ماهي اعراضه",
-        "أعراض المرض؟",
+        "أعراض المرض",
         "اعراض كورونا",
         "أعراض كورونا",
         "هل انا مريض بكورونا",
@@ -250,7 +256,7 @@
       "patterns": [
         "كيف اقي نفسي من الفيروس",
         "كيفاش نتجنب كورونا",
-        "كيف أتجنب كورونا ؟",
+        "كيف أتجنب كورونا ",
         "واش نقدر نحمي راسي من كورونا",
         "شنو هي سبل الوقاية من كورونا",
         "أشنو هما التدابير المتخدة للوقاية من فيروس كورونا",
@@ -327,7 +333,9 @@
         "واش الكمامة كتوقي"
       ],
       "responses": [
-        "ارتداء الكمامات من الاساليب الوقائية التي تنصح بها منظمة الصحة العالمية للحد من انتشار الفيروس. لكن يجب اتخاذ التدابير اللازمة وارتداؤه بالشكل الصحيح."
+        "ارتداء الكمامات من الاساليب الوقائية التي تنصح بها منظمة الصحة العالمية للحد من انتشار الفيروس. لكن يجب اتخاذ التدابير اللازمة وارتداؤه بالشكل الصحيح.",
+        "تتوفر الكمامات في المحلات التجارية والصيدليات فجميع المدن المغربية",
+        "https://www.google.com/maps/search/pharmacie/"
       ]
     },
     {
@@ -388,6 +396,10 @@
         "واش كين شي بوادر للعلاج أو لقاح",
         "واش لقاو علاج",
         "كاين شي علاج",
+        "دواء الفيروس",
+        "دواء كورونا",
+        "الدوا",
+        "دوا كورونا",
         " إيجاد لقاح",
         " لم يتوفر علاج",
         "واش كاين شي علاج",
@@ -405,7 +417,7 @@
         "مضادات اجسام"
       ],
       "responses": [
-        "عندما يكون المرض جديدًا ، لا يوجد لقاح حتى يتم تطويره. قد يستغرق تطوير لقاح جديد عدة سنوات."
+        "عندما يكون المرض جديدًا ، لا يوجد لقاح حتى يتم تطويره. قد يستغرق تطوير لقاح جديد عدة أشهر الى عدة سنوات."
       ]
     },
     {
@@ -434,12 +446,16 @@
       "tag": "thanks3arans",
       "patterns": [
         "chokran",
+        "choukran",
         "shukran ela maelumat",
         "beselama",
         "Chokeran",
         "merci bc",
         "thank you",
+        "Shokran",
+        "mzn",
         "lah y3awn",
+        "afiin",
         "Walo safi",
         "lah yhafdak",
         "Sf lah y7efdeek",
@@ -461,10 +477,14 @@
       "tag": "salam",
       "patterns": [
         "salam",
+        "YO",
+        "Wafin",
         "salaam",
+        "salamo 3alaykom",
         "salut",
         "slt",
         "slm",
+        "fin a khona",
         "hey",
         "hello",
         "hi",
@@ -503,14 +523,21 @@
         "nta daka2 sina3i",
         "nta 3aych",
         "achno nta",
+        "shkun li sen3ek",
+        "kifach tzadti",
         "achnahowa saham",
         "bghit n3rf 3la sahm",
+        "ch7al 3ndk mn 3am",
         "chkon 9ad sahm",
         "sahm nta hna ",
         "are u humain"
       ],
       "responses": [
-        "ا انا سهم , بوت مطور بتقنيات الذكاء الصناعي , الهدف من الانشاء ديالي هو الاجابة عن الاسئلة المتعلقة بكورونا بالدارجة انا باقي فمرحلة التطوير كانتمنا تسولوني اكثر عدد ديال الاسئلة غادي  يخليني نتعلم اكثر"
+        "ا انا سهم , بوت مطور بتقنيات الذكاء الصناعي ,تم الانشاء ديالي من طرف مجموعة من الباحثين فالذكاء الاصطناعي. الهدف من الانشاء ديالي هو الاجابة عن الاسئلة المتعلقة بكورونا بالدارجة انا فعمري دابا 4 ايام وانا باقي فمرحلة التطوير كانتمنا تسولوني اكثر عدد ديال الاسئلة غادي  يخليني نتعلم اكثر الى بغيتو تعرفو اكثر على الناس اللي صاوبوني ها لي ليان ",
+        "https://www.linkedin.com/in/safoinme/",
+        "https://www.linkedin.com/in/mourad-gridach-17b24320/",
+        "https://www.linkedin.com/in/hamza-mogni/",
+        "https://www.linkedin.com/in/karim-habouch-8a6068165/"
       ],
       "context_set": ""
     },
@@ -518,6 +545,9 @@
       "tag": "definitionfr",
       "patterns": [
         "Chnahia corona",
+        "lfasa2il dyal corona",
+        "shnu ism d had lwaba2",
+        "chnu hia corona",
         "wx korona",
         "shnu hya had covid19",
         "korona",
@@ -533,6 +563,7 @@
         "ashnahowa corona",
         "achna howa corona",
         "shnahwa covid",
+        "chnahowa corona",
         "shna hwa covid",
         "chno hwa mrd alcorona",
         "chno hwa mard alcorona",
@@ -574,6 +605,7 @@
       "tag": "appearancefr",
       "patterns": [
         "mnash ja le virus",
+        "sh7al lmoda db o howa kayn",
         "mnash ja lvirus",
         "chnahowa lmsder ta3 corona",
         "mnin ja le virus",
@@ -586,6 +618,7 @@
         "smé3t bli la chine bel3ani tel9at dak virus",
         "wach corona mo2amara",
         "wach corona jay mn alkhfash",
+        "imta bant awal cas flmaroc",
         "wach corona jay mn lkhofash",
         "wach corona jay mn lkhofach",
         "wach corona jay mn l5ofach",
@@ -593,6 +626,7 @@
         "kifach bda corona",
         "kifach bda covid19",
         "kifach tsllat 3lina corona",
+        "kifash ja covid19",
         "fin ban had corona awl mrh",
         "kifach bda corona",
         "mnin ja corona",
@@ -603,7 +637,8 @@
         "Wach bsa7 7itach chiwa7d chrb soba d lkhofache"
       ],
       "responses": [
-        "أول من أصيب بالفيروس ذهب إلى سوق ووهان في مقاطعة هوبي بالصين. ولذلك يرجح أن المرض انتقل عن طريق .الحيوانات ، ولكن لم يتم تأكيد أصله"
+        "أول من أصيب بالفيروس ذهب إلى سوق ووهان في مقاطعة هوبي بالصين في اواخر 2019. ولذلك يرجح أن المرض انتقل عن طريق .الحيوانات ، ولكن لم يتم تأكيد أصله",
+        "اول واحد تكتاشف مصاب فالمغرب هو مواطن مغربي مقيم بالديار الايطالية , وتم الكشف عن الحالة يوم 2 مارس بمدينة سطات "
       ],
       "context_set": ""
     },
@@ -614,15 +649,16 @@
         "9dach kayb9a lvirus 7ay",
         "ch7al kay3ich le virus",
         "ch7al kay3ich lvirus",
-        "ch7al mn sa3a kyb9a le virus 7ey",
-        "ch7al mn sa3a kyb9a lvirus 7ay",
+        "ch7al kyb9a le virus 7ey",
+        "ch7al kyb9a lvirus 7ay",
+        "chhal kayb9a virus",
         "ch7al dyal lwe9t kayb9a le virus sur les surfaces",
         "ch7al dyal lwe9t kayb9a lvirus 3la sto7a",
         "ch7al kay3ich",
         "ch7al kay3ich 3la bara",
         "ch7al kay3ich 3la bra",
-        "wash lvirus kat9tlo chems",
-        "wash lvirus kat9tlo chams",
+        "lvirus kat9tlo chems",
+        "lvirus kat9tlo chams",
         "wach kay3ich f les surfaces",
         "Ch7al katbqa corona fl7wayj"
       ],
@@ -693,8 +729,11 @@
       "patterns": [
         "statistiques",
         "sh7al mn 7ala mu2akada",
+        "che7al 3ada elwafayat 7alliyan",
+        "Chhal d l isabat",
         "ch7al dnas mrade daba",
         "Xhal mn wahd mrid b corona",
+        "Chhal dl issabat kaynin lyoma",
         "ch7al mn wa7ed mat asahm",
         "che7al men 7ala kayna f meghrib",
         "bghit n3raf sh7al mn 7ala kayna",
@@ -772,13 +811,15 @@
         "cho homa a3rad corona",
         "Chnu hya aearad Corona",
         "Bach nearfu rassna wach hamlin l coronavirus",
-        "wash fya covid19",
+        "kifash ne3raf bli fya",
+        " fya covid19",
         "kisebeb lmot",
         "Chnu hya aearad Corona",
         "Bach n3erfu rassna wach Fina corona",
         "Kifach naaref rasi fia corona",
         "chnahuma marahil dyal corona",
         "chno hya a3rad corona",
+        "lmen ghan3eytu ila 7essina b l2a3rad",
         "kifach n3ref fia corona",
         "Bghit n3ref l 2a3rad dyal corona",
         "Kifach taekd bli mafyach corona",
@@ -798,7 +839,7 @@
         "ach kayw93 li mrid",
         "bach ghan7as ila kant mrid bcorona",
         "achno momkin yw93 lnas mrad bcorona",
-        "ana kan7ass bs5ana wach fya corona ?",
+        "ana kan7ass bs5ana wach fya corona",
         "chhal dyal lwa9t kayb9a lvirus bach ibano l2a3rad dualo",
         "fatrat l7adana",
         "ch7al kayb9a l virus fljism",
@@ -839,20 +880,28 @@
       "tag": "protectionfr",
       "patterns": [
         "wach n9der nproteger rassi mn corona",
-        "kifach ntfadaw had lmard",
+        "kayfa na9di ala virus corona",
+        "kifach ntfadaw lmard",
         "Kifach nhmiw rassna mn Corona",
-        "kifach ntjenbo",
+        "7tiyatat marid corona",
+        "kifach ntjenb korona",
+        "kifach nhmi rassi mn corona",
         "chno ndire bach manemredch",
         "Kifach nhmiw rassna mn Corona",
         "wach n9der n7mi rassi mn corona",
-        "kifach n9édro n7miw rosno mn corona",
+        "kifach n9edro n7miw rosno mn corona",
         "Kifach antjeneb corona",
         "Kifach matjinich corona",
         "chno ndir",
         "kifach n7mi rassi",
+        "ijraat salama",
+        "2jra2at salama",
+        "ijra2at salama",
+        "2ikraat salama",
         "protection",
         "ta39im",
-        "wiakaya",
+        "wikaya",
+        "achnahouma sobol alwi9aya men covid19",
         "woqaya",
         "wokaya",
         "wiqaya",
@@ -863,14 +912,12 @@
         "kifach twqi rasak man corona",
         "kifach n3ml woqaya",
         "chno ne9dr ndir",
-        "chi nasi7a 3afak",
-        "kifach nçder n7mi rassi me corona",
-        "wach lkmama t9dar t7mina 100% man corona",
+        "nasi7a 3afak",
+        "kifach ncder n7mi rassi me corona",
         "wach ligat kay7miwna man corona",
         "kefach n7mi rasi man corona",
         "kefach ne7mi rasi men corona",
         "kifach na7mi rassi men corona",
-        "Wach darori l mask",
         "ila fik sekhana ach khassk dir"
       ],
       "responses": [
@@ -881,10 +928,14 @@
       "tag": "Spreadfr",
       "patterns": [
         "kifach kayntacher le virus",
+        "kifach nta9l",
         "kifach kayntacher corona",
+        "kintaqal mn insan n akhur",
         "kifach kayntacher lvirus",
+        "kifach kayntaql",
         "wach le virus kayntacher f l'air",
         "wach corona kayntacher f l'air",
+        "wach kaydoz corona f l'air",
         "wach lvirus kayntacher f l'air",
         "wach le virus kaynta9l f lhwa",
         "wach corona kaynta9l f lhwa",
@@ -944,6 +995,7 @@
       "patterns": [
         "wach kayn 3ilaj",
         "wach kayn vaccin",
+        "wach kayn dwa ta3 corona",
         "hal kayn chi dwa dyal corona",
         "imta ghayl9aw dwa",
         "wach l9aw dwa",
@@ -962,7 +1014,7 @@
       "tag": "kamama",
       "patterns": [
         "Wach khasnni nkbss lkmama",
-        "Darouri nelbess l kemama ?",
+        "Darouri nelbess l kemama",
         "Nlbss lkmama",
         "Wach khasni darurii nlbss lkmama",
         "wach corona kay2tr 3la lmana3a",
@@ -973,10 +1025,14 @@
         "kamama",
         "alkamama",
         "kamamat",
-        "wach l mask darori lilwi9aya"
+        "wach l mask darori lilwi9aya",
+        "wach lkmama t9dar t7mina 100% man corona",
+        "Wach darori l mask"
       ],
       "responses": [
-        "ارتداء الكمامات من الاساليب الوقائية التي تنصح بها منظمة الصحة العالمية للحد من انتشار الفيروس. لكن يجب اتخاذ التدابير اللازمة وارتداؤه بالشكل الصحيح."
+        "ارتداء الكمامات من الاساليب الوقائية التي تنصح بها منظمة الصحة العالمية للحد من انتشار الفيروس. لكن يجب اتخاذ التدابير اللازمة وارتداؤه بالشكل الصحيح.",
+        "تتوفر الكمامات في المحلات التجارية والصيدليات فجميع المدن المغربية",
+        "https://www.google.com/maps/search/pharmacie/"
       ]
     },
     {
