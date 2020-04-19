@@ -38,5 +38,7 @@ def crawl(name=None):
         else:
             country = country.title()
         
+
         crawler = Crawler()
-        return jsonify(crawler.run(country))
+        response = crawler.run(country)
+        return jsonify(response)
