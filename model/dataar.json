@@ -22,8 +22,21 @@
         "ما اسمك"
       ],
       "responses": [
-        "السلام انا سهم , اول بوت بالدارجة المغربية على كورونا . عندك شي اسئلة على كوفيد19 , سولني وأنا غانجاوبك . انا باقي فمرحلة ديال التطوير , لذلك كانتمنا تسولوا بزاف دالاسئلة باش نتعلم منها "
+        "السلام انا سهم , اول بوت بالدارجة المغربية على كورونا . عندك شي اسئلة على كوفيد19 , سولني وأنا غانجاوبك . انا باقي فمرحلة ديال التطوير , لذلك كانتمنا تسولوا بزاف دالاسئلة باش نتعلم منها ",
+        "بالمناسبة رمضان مبارك سعيد"
       ],
+      "context_set": ""
+    },
+    {
+      "tag": "mobaraka",
+      "patterns": [
+        "الله يبارك",
+        "الله يبارك فيك",
+        "يبارك فيك",
+        "يبرك فيك",
+        "يبرك فك"
+      ],
+      "responses": ["علينا وعليك"],
       "context_set": ""
     },
     {
@@ -97,6 +110,26 @@
       "context_set": ""
     },
     {
+      "tag": "Etude",
+      "patterns": [
+        "امتا غانرجعو لقرايا",
+        "امتا غاتبدا القرايا",
+        "القرايا",
+        "الدراسة امتا",
+        "امتا خاصنا نرجعو للدراسة",
+        "دراسة",
+        "الدراسة",
+        "واش غانرجعو للقراية",
+        "القراية",
+        "قراية"
+      ],
+      "responses": [
+        "باقي مكيناش معلومة مؤكدة على امتا غترجع الدراسة في البلاد .",
+        "مع العلم بان اقرب اجل ممكن هو من بعد ماتنتهي فترة الحجر الصحي واللي غاتسالي ف20 مارس 2019"
+      ],
+      "context_set": ""
+    },
+    {
       "tag": "Lifetime",
       "patterns": [
         "كم من الوقت يظل الفيروس حي ",
@@ -110,7 +143,8 @@
         "مدة حياة الفيروس",
         "مدة بقاء الفيروس",
         "شحال كيعيش على برا",
-        "واش الفيروس كتقتلو الشمس"
+        "واش الفيروس كتقتلو الشمس",
+        "فين تايعيش الفيروس"
       ],
       "responses": [
         "لا يُعرف على وجه اليقين فترة استمرار الفيروس المسبب لمرض كوفيد-19 حياً على الأسطح، ولكن يبدو أنه يشبه في ذلك سائر فيروسات كورونا. وتشير الدراسات إلى أن فيروسات كورونا  بما في ذلك المعلومات الأولية عن الفيروس المسبب لمرض كوفيد-19 قد تظل حية على الأسطح لبضع ساعات أو لعدة أيام. وقد يختلف ذلك باختلاف الظروف مثل نوع السطح ودرجة الحرارة أو الرطوبة البيئية. على الجلد عشر دقائق في الهواء ثلاث ساعات على القطع النقدية أربع ساعات على الشعر أو الثياب 12 ساعة على الورق 24 ساعة على البلاستيك من يوم إلى يومين"
@@ -192,6 +226,7 @@
         "نخافو من كورونا",
         "الكورونا خطيرة",
         "وش كورونا كاتقتل",
+        "شكون لي معرض للخطر",
         "واش غتقتلني كورونا",
         "هل كورونا خطير ",
         "هاد لمرض كايقتل",
@@ -212,6 +247,7 @@
         "كيفاش نعرف رسي مريض",
         "كيفاش نعرف راسي مريض",
         "ماهي اعراضه",
+        "اشناهوما الأعراض ديال كورونا",
         "أعراض المرض",
         "اعراض كورونا",
         "أعراض كورونا",
@@ -223,11 +259,15 @@
         "واش كاين شي واحد نقدر نتاصل بيه انني مصاب"
       ],
       "responses": [
-        " تتمثل الأعراض الأكثر شيوعاً لمرض كوفيد-19 في ",
+        " تتمثل الأعراض الأكثر شيوعاً لمرض كوفيد-19 في",
         "الحمى",
         "الإرهاق",
         "السعال الجاف",
-        "قد يعاني بعض المرضى من الآلام والأوجاع، أو احتقان الأنف، أو الرشح، أو ألم الحلق، أو الإسهال",
+        "قد يعاني بعض المرضى من الآلام والأوجاع،  ",
+        "احتقان الأنف",
+        "الرشح ",
+        "ألم الحلق",
+        " الإسهال",
         "عادة ما تكون هذه الأعراض خفيفة وتبدأ تدريجياً. ويصاب بعض الناس بالعدوى دون أن تظهر عليهم أي أعراض ودون أن يشعروا بالمرض",
         "تمتد فترة حضانة الفيروس من 1.9 يوم الى 14.7 يوم وتظهر الاعراض عادة في نهاية الاسبوع الاول من الاصابة",
         "اذا احسست باحد هذه الاعراض او اغلبها اتصل بالجهات المعنية , للمزيد من المعلومات توجه للصفحة وزارة الصحة المغربية ",
@@ -245,10 +285,12 @@
         "إلى اللقاء",
         "بسلامة",
         "شكرا لك",
+        "وفقكم الله",
         "باي"
       ],
       "responses": [
-        "مرحبا , ماتنساش ديما تغسل يديك , تلبس الكمامات الى كانتي خارج ومتخرجش غير للضرورة . "
+        "مرحبا , ماتنساش ديما تغسل يديك , تلبس الكمامات الى كانتي خارج ومتخرجش غير للضرورة . ",
+        "ورمضان مبارك سعيد"
       ]
     },
     {
@@ -289,6 +331,7 @@
         "طرق انتشار الفيروس",
         "انتقال الفيروس",
         "انتشار الفيروس",
+        "هل هد المرض  ينتشر بسرعة بين الاطفال الصغار",
         "واش الفيروس كاينتقل عبر الهواء",
         "واش الفيروس كاينتشر عبر الهواء",
         "واش يقد ينتاقل للحيوانات أو يرجع ينقلوه هوما للإنسان",
@@ -336,6 +379,24 @@
         "ارتداء الكمامات من الاساليب الوقائية التي تنصح بها منظمة الصحة العالمية للحد من انتشار الفيروس. لكن يجب اتخاذ التدابير اللازمة وارتداؤه بالشكل الصحيح.",
         "تتوفر الكمامات في المحلات التجارية والصيدليات فجميع المدن المغربية",
         "https://www.google.com/maps/search/pharmacie/"
+      ]
+    },
+    {
+      "tag": "emercall",
+      "patterns": [
+        "بيمن نتصل",
+        "ارقام الاتصال",
+        "نتصل",
+        "أرقام الاتصال",
+        "اشمن رقم متصل بيه",
+        "الرقم الاخضر",
+        "ارقام وزارة الاتصال",
+        "الو المساعدة الطبية الاستعجالية"
+      ],
+      "responses": [
+        "هذه هي الارقام الرسمية لوزارة الصحة المغربية الى بغيتي تصل بيها",
+        "الو المساعدة الطبية الاستعجالية 141",
+        "الو اليقظة الوبائية 0801004747"
       ]
     },
     {
@@ -398,6 +459,7 @@
         "كاين شي علاج",
         "دواء الفيروس",
         "دواء كورونا",
+        "العلاج",
         "الدوا",
         "دوا كورونا",
         " إيجاد لقاح",
@@ -443,6 +505,138 @@
       ]
     },
     {
+    "tag": "definition_amz",
+      "patterns": [
+        "Maygan corona",
+        "Maygan korona",
+        "Maigan corona",
+        "Matga corona",
+        "Mayga corona",
+        "Manikatga corona",
+        "Madigan corona",
+        "Madawa igan korona",
+        "Madawa Iga corona yad",
+        "Mayga corona yad",
+        "Mat3na corona",
+        "Mamoutinin corona",
+        "Maotinin corona",
+        "Iniyi kra f corona",
+        "Iniyi matga corona ",
+        "iniyi matega corona",
+        "Mayi khssan adssenh fcorona",
+        "Mayi khassan adissaneh fcorona",
+        "Mayi khssan adissanh fcorona",
+        "Mayi khssan adssengh fcorona",
+        "Mayi khassan adissangh fcorona",
+        "Mayi khssan adissangh fcorona",
+        "Mayi khssan adssenkh fcorona",
+        "Mayi khassan adissanekh fcorona",
+        "Mayi khssan adissanegh fcorona",
+        "Mayga lvirusad",
+        "Mayga lvirousad",
+        "Mayga virus ncorona",
+        "Ized corona tga tamadont ikhchn",
+        "Izd corona tga tamadont ikhchn",
+        "Ized corona tega tamadont ikhchn",
+        "Izd corona tega tamadont ikhchn",
+        "Ized corona tga tamadount ikhchn",
+        "Ized corona tga tamadont ikhchon",
+        "Sawliyi f corona",
+        "Cherhiyi maygan corona ",
+        "Cherhiyi mayga corona ",
+        "maygan tamadont ncorona",
+        "Matga tamadont ncorona"
+      ],
+      "responses": [
+        "Corona tega yat tamadont liybdan gh chinwa trwass rwah."
+      ],
+      "context_set": ""
+      },
+      {
+      
+      "tag": "appearance_amz",
+      "patterns": [
+        "Manihtbda corona",
+        "Manightbda corona",
+        "Manikhtbda corona",
+        "Manihtbda tamadont ncoronaا",
+        "Manightbda tamadont ncorona",
+        "Manikhtbda tamadont ncorona",
+        "Manihditouchka tamadont ncorona",
+        "Manighditouchka tamadont ncorona",
+        "Manihditouchka corona",
+        "Madiwin corona",
+        "Madiwin tamadont ncorona",
+        "Ized atiskern",
+        "Manik asstbda corona",
+        "Manik asstebda tamadont ncorona",
+        "Manik assibda covid-19",
+        "Mayga Sabab ncorona",
+        "manga sabbat ntmadontad"
+      ],
+      "responses": [
+        "Amzwarou liymridn stmadontad ncorona ifta syan sou9 ghyat lmdint ghchinwa ghikan asintacher walakin ourta sen maygan Sabab ness"
+      ],
+      "context_set": ""
+      },
+      
+      {
+      "tag": "stats_amz",
+      "patterns": [
+        "mnchek aymriden",
+        "mnchek aymoten",
+        "Mnchek ayjin z corona",
+        "mnchek aymriden s corona",
+        "mnchek aymoten s corona",
+        "Mnchek ayjin"
+      ],
+      "responses": [
+        "The data here should be from api"
+      ]
+    },
+    
+     {
+      "tag": "protection_amz",
+      "patterns": [
+        "Mayikhassa adker7 bach adour mride7",
+        "Mayikhassa adkergh bach adour mridegh",
+        "Mayikhassa adkerkh bach adour mridekh",
+        "Maransker bach adour nmrid",
+        "Mayikhassa adsker7 bach atfada7 lvirusad",
+        "Mayikhassa adskergh bach atfadagh lvirusad",
+        "Mayikhassa adskerkh bach atfadakh lvirusad",
+        "Maygan l7imaya",
+        "Manik assradour mrid7",
+        "Manik assradour mridgh",
+        "Ized adsird7 ifassen youda bach adour mrid7",
+        "Ized adsirdgh ifassen youda bach adour mridgh",
+        "Ized adlsse7 youda bach adour mrid7"
+      ],
+      "responses": [
+        "Ikhssa atssiret ifassneek mzyan swaman d sabon, dikhssa adour t9rabet iwana itoussoun oula wali ghtela tinzi bahra  aji yat lmassafa n 1mitro, adour tgert iminek oula iwalnek ighourta tssiret ifassnek mzyan, ourikhssa atoussout ghifassnek bach agissen ourtsslse9t tamdont ighgik tela, adour t9rabet ikrayn liymmridn skran tamadont ich9an achkou lvirusad ratissmret "
+      ]
+    },
+    {
+      "tag": "Hello_amz",
+      "patterns": [
+        "azoul",
+        "azul",
+        "ahlan",
+        "Manikantgit",
+        "Manzakin",
+        "Mansakin",
+        "Timnssiwin",
+        "Timnsiwin",
+        "Labas dark",
+        "Mat3awat",
+        "manik Asstin tiwit",
+        "Thena lou9et"
+      ],
+      "responses": [
+        "Azoul flak, nki issmiyi SAHM gigh awal bot stchelhit f corona, sa9sayi natrit ftamadontad nljdid covid-19, jawbhak"
+      ]
+    },
+    {
       "tag": "thanks3arans",
       "patterns": [
         "chokran",
@@ -480,6 +674,7 @@
         "YO",
         "Wafin",
         "salaam",
+        "smitk",
         "salamo 3alaykom",
         "salut",
         "slt",
@@ -506,7 +701,8 @@
         "bsr"
       ],
       "responses": [
-        "السلام انا سهم , اول بوت بالدارجة المغربية على كورونا . عندك شي اسئلة على كوفيد19 , سولني وأنا غانجاوبك . انا باقي فمرحلة ديال التطوير , لذلك كانتمنا تسولوا بزاف دالاسئلة باش نتعلم منها "
+        "السلام انا سهم , اول بوت بالدارجة المغربية على كورونا . عندك شي اسئلة على كوفيد19 , سولني وأنا غانجاوبك . انا باقي فمرحلة ديال التطوير , لذلك كانتمنا تسولوا بزاف دالاسئلة باش نتعلم منها ",
+        "بالمناسبة رمضان مبارك سعيد"
       ],
       "context_set": ""
     },
@@ -514,6 +710,7 @@
       "tag": "ambot",
       "patterns": [
         "nta bot",
+        "Chno smitak",
         "chkun nti",
         "shkun tina",
         "wach nta bot",
@@ -548,6 +745,7 @@
         "lfasa2il dyal corona",
         "shnu ism d had lwaba2",
         "chnu hia corona",
+        "3lax ismo covid",
         "wx korona",
         "shnu hya had covid19",
         "korona",
@@ -730,12 +928,16 @@
         "statistiques",
         "sh7al mn 7ala mu2akada",
         "che7al 3ada elwafayat 7alliyan",
+        "Kifax taynta9l",
+        "Kifax tatnta9l corona",
         "Chhal d l isabat",
         "ch7al dnas mrade daba",
+        "Xhal lwafayat d corona",
         "Xhal mn wahd mrid b corona",
         "Chhal dl issabat kaynin lyoma",
         "ch7al mn wa7ed mat asahm",
         "che7al men 7ala kayna f meghrib",
+        "ihsa2iyat",
         "bghit n3raf sh7al mn 7ala kayna",
         "Ch7al men wahed mrid endna b lcorona f l maroc",
         "Chal men hala endna flmeghrib",
@@ -757,6 +959,7 @@
         "chhal wasal f maroc db",
         "Chhal waslin daba mn 7ala f mghrib",
         "chehal kayna men hala",
+        "X7al wslo mn7ala",
         "stats",
         "ch7al maate men wa7ed lyoum",
         "ch7al mn wa7d mat",
@@ -780,6 +983,7 @@
         "wach corona merd khatir",
         "khayf mn corona",
         "nqdar nmout",
+        "kay 9tel",
         "corona khatira",
         "wach corona kaydi lwafat",
         "wach corona katchad nas sghar",
@@ -810,6 +1014,8 @@
       "patterns": [
         "cho homa a3rad corona",
         "Chnu hya aearad Corona",
+        "Al2a3rad dayal corona",
+        "bach n3raf rassi mriid",
         "Bach nearfu rassna wach hamlin l coronavirus",
         "kifash ne3raf bli fya",
         " fya covid19",
@@ -854,12 +1060,37 @@
         "الحمى",
         "الإرهاق",
         "السعال الجاف",
-        "قد يعاني بعض المرضى من الآلام والأوجاع، أو احتقان الأنف، أو الرشح، أو ألم الحلق، أو الإسهال",
+        "قد يعاني بعض المرضى من الآلام والأوجاع،  ",
+        "احتقان الأنف",
+        "الرشح ",
+        "ألم الحلق",
+        " الإسهال",
         "عادة ما تكون هذه الأعراض خفيفة وتبدأ تدريجياً. ويصاب بعض الناس بالعدوى دون أن تظهر عليهم أي أعراض ودون أن يشعروا بالمرض",
         "تمتد فترة حضانة الفيروس من 1.9 يوم الى 14.7 يوم وتظهر الاعراض عادة في نهاية الاسبوع الاول من الاصابة",
         "اذا احسست باحد هذه الاعراض او اغلبها اتصل بالجهات المعنية , للمزيد من المعلومات توجه للصفحة وزارة الصحة المغربية ",
         "http://www.covidmaroc.ma/Pages/ContactAR.aspx"
       ]
+    },
+    {
+      "tag": "Etudearfr",
+      "patterns": [
+        "imta atbda l9raya",
+        "imta anrj3o l9raya",
+        "wach ghadi nrj3o lqraya",
+        "dirasa",
+        "dirassa",
+        "lkraya",
+        "lqraia",
+        "ghadi n9raw 3awtani",
+        "ghadi y9raw",
+        "yqraw",
+        "rojo3 9raya"
+      ],
+      "responses": [
+        "باقي مكيناش معلومة مؤكدة على امتا غترجع الدراسة في البلاد .",
+        "مع العلم بان اقرب اجل ممكن هو من بعد ماتنتهي فترة الحجر الصحي واللي غاتسالي ف20 مارس 2019"
+      ],
+      "context_set": ""
     },
     {
       "tag": "exposedfr",
@@ -880,6 +1111,7 @@
       "tag": "protectionfr",
       "patterns": [
         "wach n9der nproteger rassi mn corona",
+        "Kifex n 7mi rasi men waba2",
         "kayfa na9di ala virus corona",
         "kifach ntfadaw lmard",
         "Kifach nhmiw rassna mn Corona",
@@ -945,6 +1177,7 @@
         "kifach kaynta9l le virus",
         "kifach kaynta9l lvirus",
         "kifach kaynta9l corona",
+        "Wach lvirus kaynta9el flhawa2",
         "b7alach katsab corona",
         "bhalach katssab b corona",
         "wach korona katntachr bzarba",
@@ -1011,6 +1244,42 @@
       ]
     },
     {
+      "tag": "emercallarfr",
+      "patterns": [
+        "bghit ntassal",
+        "biman ntasal",
+        "tasal",
+        "m3amn nhdr",
+        "bchkon nhdr",
+        "ra9m l25dar",
+        "arqam itissal",
+        "chno howa arkam li ntasl bihom",
+        "bghit nsouni 3la jihat mo3ayana",
+        "tisal"
+      ],
+      "responses": [
+        "هذه هي الارقام الرسمية لوزارة الصحة المغربية الى بغيتي تصل بيها",
+        "الو المساعدة الطبية الاستعجالية 141",
+        "الو اليقظة الوبائية 0801004747"
+      ]
+    },
+    {
+      "tag": "mobarakarfr",
+      "patterns": [
+        "Laybark fik",
+        "llah ibark fik",
+        "lah ybark fik",
+        "lah ybarek fik",
+        "Allah ybark fik",
+        "lah y7afdek",
+        "lah ybrk fik",
+        "llah ibrk fk",
+        "alah ibarak fik"
+      ],
+      "responses": ["علينا وعليك"],
+      "context_set": ""
+    },
+    {
       "tag": "kamama",
       "patterns": [
         "Wach khasnni nkbss lkmama",
@@ -1039,6 +1308,7 @@
       "tag": "Reinfectionfr",
       "patterns": [
         "wach le virus kay3tik mana3a",
+        "Wach li bra men corona y9der y3awed yt3ada",
         "wach momkin n3awd nmred b le virus",
         "wach li bra kay3awd imred",
         "wach corona kay2tr 3la lmana3a",
