@@ -88,10 +88,12 @@
         "مناش جا الفيروس",
         "منين جا الفيروس",
         "منين بدا الفيروس",
+        "مكان الظهور",
         "فين بدا الفيروس",
         "واش كورونا مصنع",
         "واش كورونا مؤامرة",
         "واش كورونا جاي من الخفاش",
+        "كيف ظهر فيروس كورونا",
         "كيفاش بدات كورونا",
         "كيفاش بدا كورونا",
         "كيفاش بدا كوفيد19",
@@ -105,7 +107,8 @@
         "تاريخ ظهور اول حالة"
       ],
       "responses": [
-        "أول من أصيب بالفيروس ذهب إلى سوق ووهان في مقاطعة هوبي بالصين في اواخر 2019. ولذلك يرجح أن المرض انتقل عن طريق .الحيوانات ، ولكن لم يتم تأكيد أصله"
+        "أول من أصيب بالفيروس ذهب إلى سوق ووهان في مقاطعة هوبي بالصين في اواخر 2019. ولذلك يرجح أن المرض انتقل عن طريق .الحيوانات ، ولكن لم يتم تأكيد أصله",
+        "اول واحد تكتاشف مصاب فالمغرب هو مواطن مغربي مقيم بالديار الايطالية , وتم الكشف عن الحالة يوم 2 مارس بمدينة سطات "
       ],
       "context_set": ""
     },
@@ -134,6 +137,7 @@
       "patterns": [
         "كم من الوقت يظل الفيروس حي ",
         "قداش كايبقى الفيروس حي",
+        "الفيروس يبقى في الهواء",
         "كم يعيش الفيروس على الاسطح",
         "شحال كيعيش الفيروس",
         "شحال من ساعة كيبقا الفيروس حي",
@@ -159,16 +163,20 @@
         "أريد رخصة العمل",
         "ورقة السماح بالخروج",
         "فيما يخص حظر التجول",
+        "شحال غيبقا هاد كورونا",
         "السفر من المدينة",
+        "الى متى سيستمر هذا الوباء",
         "رخص العمل",
         "رخصة الخدمة",
         "واش الحجر الصحي غايبقا ديما",
+        "امتى غيسلي هاذ كورونا",
         "امتى غايسالي الحجر الصحي",
         "واش حالة الطوارئ غتسالي الشهر الجاي",
         "امتى غاتسالي حالة الطوارئ"
       ],
       "responses": [
-        "أن حالة الطوارئ الصحية وتقييد الحركة في البلاد لأجل غير مسمى، يعد وسيلة لا محيد عنها لإبقاء فيروس كورونا تحت السيطرة، مشددا على أن ذلك لا يعني وقف عجلة الاقتصاد، ولكن اتخاذ تدابير استثنائية تستوجب الحد من حركة المواطنين، من خلال اشتراط مغادرة مقرات السكن باستصدار وثيقة رسمية لدى رجال وأعوان السلطة، وفق حالات معينة. وأضاف أن هذه الحالات تم تحديدها في  التنقل للعمل بالنسبة للإدارات والمؤسسات المفتوحة، بما فيها الشركات والمصانع والأشغال الفلاحية، والمحلات والفضاءات التجارية ذات الارتباط بالمعيش اليومي للمواطن، والصيدليات، والقطاع البنكي والمصرفي، ومحطات التزود بالوقود، والمصحات والعيادات الطبية، ووكالات شركات الاتصالات، والمهن الحرة الضرورية، ومحلات بيع مواد التنظيف"
+        "أن حالة الطوارئ الصحية وتقييد الحركة في البلاد لأجل غير مسمى، يعد وسيلة لا محيد عنها لإبقاء فيروس كورونا تحت السيطرة، مشددا على أن ذلك لا يعني وقف عجلة الاقتصاد، ولكن اتخاذ تدابير استثنائية تستوجب الحد من حركة المواطنين، من خلال اشتراط مغادرة مقرات السكن باستصدار وثيقة رسمية لدى رجال وأعوان السلطة، وفق حالات معينة",
+        "وقد حددت السلطات يوم 20 ماي كاخر ايام حالات الطوارئ مع امكانية التمديد , مع الغاء عمل الوثيقة التي تسمح بالخروج من 7 مساء وحتى 5 صباحا"
       ],
       "context_set": ""
     },
@@ -199,8 +207,10 @@
         "شنو هيا المستجدات على كرونا في المغرب",
         "شحال عدد الحالات المصابة ب فيروس كورونا في المغرب",
         "كم عدد الحالات المؤكدة",
+        "ما هي نسبة وفيات كورونا في العالم",
         "كم عدد المصابين",
         "كم عدد المصابين في المغرب",
+        "شحال كاين فطاطا",
         "احصائيات كورونا",
         "احصاءات كورونا",
         "عدد الاصابات ",
@@ -242,6 +252,7 @@
       "tag": "symptomesarabic",
       "patterns": [
         "ما هي أعراض الإصابة بالفيروس",
+        "كيف اعرف انني حامل للفيروس",
         "شناهوما أعراض كوفيد 19",
         "شنو هما اعراض كوفيد 19",
         "كيفاش نعرف رسي مريض",
@@ -279,6 +290,7 @@
       "patterns": [
         "شكرا",
         "شكرا بزاف",
+        "تانميرت",
         "مع السلامة",
         "تهلا",
         "الى اللقاء",
@@ -298,6 +310,7 @@
       "patterns": [
         "كيف اقي نفسي من الفيروس",
         "كيفاش نتجنب كورونا",
+        "كيفاش ممكن نتفادى العدوى بالفيروس",
         "كيف أتجنب كورونا ",
         "واش نقدر نحمي راسي من كورونا",
         "شنو هي سبل الوقاية من كورونا",
@@ -460,6 +473,7 @@
         "دواء الفيروس",
         "دواء كورونا",
         "العلاج",
+        "كاين علاج",
         "الدوا",
         "دوا كورونا",
         " إيجاد لقاح",
@@ -505,10 +519,11 @@
       ]
     },
     {
-    "tag": "definition_amz",
+      "tag": "definition_amz",
       "patterns": [
         "Maygan corona",
         "Maygan korona",
+        "Maigan corona",
         "Maigan corona",
         "Matga corona",
         "Mayga corona",
@@ -547,13 +562,10 @@
         "maygan tamadont ncorona",
         "Matga tamadont ncorona"
       ],
-      "responses": [
-        "Corona tega yat tamadont liybdan gh chinwa trwass rwah."
-      ],
+      "responses": ["Corona tega yat tamadont liybdan gh chinwa trwass rwah."],
       "context_set": ""
-      },
-      {
-      
+    },
+    {
       "tag": "appearance_amz",
       "patterns": [
         "Manihtbda corona",
@@ -578,27 +590,52 @@
         "Amzwarou liymridn stmadontad ncorona ifta syan sou9 ghyat lmdint ghchinwa ghikan asintacher walakin ourta sen maygan Sabab ness"
       ],
       "context_set": ""
-      },
-      
-      {
+    },
+
+    {
       "tag": "stats_amz",
       "patterns": [
         "mnchek aymriden",
+        "Mochk lhala adlkmn",
+        "Mchk l7alat aylan ghasad a sahm",
+        "Mnechk aylkm",
+        "Mnchk adlkemn ghasad",
+        "michk nirgazn ayoudn ghlmghrib",
+        "Mochk adlkmn ghila",
+        "Michk adlkemn ghasad",
+        "mnchek aymoten",
+        "Mochk adlkmn",
+        "Mnchek ayjin z corona",
+        "Chhal wsloan hala",
+        "Mock adlkmn lhala",
+        "mnchek aymriden s corona",
+        "mnchek aymoten s corona",
+        "Mnchek ayjin"
+      ],
+      "responses": ["The data here should be from api"]
+    },
+    {
+      "tag": "kamama_amz",
+      "patterns": [
+        "Iz i7nga takmamt aritna9ass hlkhotora ncorona",
         "mnchek aymoten",
         "Mnchek ayjin z corona",
         "mnchek aymriden s corona",
         "mnchek aymoten s corona",
         "Mnchek ayjin"
       ],
-      "responses": [
-        "The data here should be from api"
-      ]
+      "responses": ["The data here should be from api"]
     },
-    
-     {
+    {
       "tag": "protection_amz",
       "patterns": [
         "Mayikhassa adker7 bach adour mride7",
+        "Mani san7arb corona",
+        "Manik san7arb corona",
+        "matga tari9a bach antfada corona",
+        "Manik asranhafd figoyangh",
+        "kifach ntfadaw l3edwa dial lvirus",
+        "kifach netfadaw l3edwa dial l virus",
         "Mayikhassa adkergh bach adour mridegh",
         "Mayikhassa adkerkh bach adour mridekh",
         "Maransker bach adour nmrid",
@@ -624,8 +661,10 @@
         "ahlan",
         "Manikantgit",
         "Manzakin",
+        "Azoul",
         "Mansakin",
         "Timnssiwin",
+        "Tanmirt",
         "Timnsiwin",
         "Labas dark",
         "Mat3awat",
@@ -641,6 +680,7 @@
       "patterns": [
         "chokran",
         "choukran",
+        "beslama",
         "shukran ela maelumat",
         "beselama",
         "Chokeran",
@@ -673,6 +713,7 @@
         "salam",
         "YO",
         "Wafin",
+        "salamAlykom",
         "salaam",
         "smitk",
         "salamo 3alaykom",
@@ -712,6 +753,8 @@
         "nta bot",
         "Chno smitak",
         "chkun nti",
+        "chkoun sawbak",
+        "chno smitak",
         "shkun tina",
         "wach nta bot",
         "nta bnadm",
@@ -896,7 +939,8 @@
         "wach coronna ratawal"
       ],
       "responses": [
-        "أن حالة الطوارئ الصحية وتقييد الحركة في البلاد لأجل غير مسمى، يعد وسيلة لا محيد عنها لإبقاء فيروس كورونا تحت السيطرة، مشددا على أن ذلك لا يعني وقف عجلة الاقتصاد، ولكن اتخاذ تدابير استثنائية تستوجب الحد من حركة المواطنين، من خلال اشتراط مغادرة مقرات السكن باستصدار وثيقة رسمية لدى رجال وأعوان السلطة، وفق حالات معينة. وأضاف أن هذه الحالات تم تحديدها في  التنقل للعمل بالنسبة للإدارات والمؤسسات المفتوحة، بما فيها الشركات والمصانع والأشغال الفلاحية، والمحلات والفضاءات التجارية ذات الارتباط بالمعيش اليومي للمواطن، والصيدليات، والقطاع البنكي والمصرفي، ومحطات التزود بالوقود، والمصحات والعيادات الطبية، ووكالات شركات الاتصالات، والمهن الحرة الضرورية، ومحلات بيع مواد التنظيف"
+        "أن حالة الطوارئ الصحية وتقييد الحركة في البلاد لأجل غير مسمى، يعد وسيلة لا محيد عنها لإبقاء فيروس كورونا تحت السيطرة، مشددا على أن ذلك لا يعني وقف عجلة الاقتصاد، ولكن اتخاذ تدابير استثنائية تستوجب الحد من حركة المواطنين، من خلال اشتراط مغادرة مقرات السكن باستصدار وثيقة رسمية لدى رجال وأعوان السلطة، وفق حالات معينة",
+        "وقد حددت السلطات يوم 20 ماي كاخر ايام حالات الطوارئ مع امكانية التمديد , مع الغاء عمل الوثيقة التي تسمح بالخروج من 7 مساء وحتى 5 صباحا"
       ],
       "context_set": ""
     },
@@ -1014,6 +1058,7 @@
       "patterns": [
         "cho homa a3rad corona",
         "Chnu hya aearad Corona",
+        "Chnahya la3rad dhal corona",
         "Al2a3rad dayal corona",
         "bach n3raf rassi mriid",
         "Bach nearfu rassna wach hamlin l coronavirus",
@@ -1088,7 +1133,7 @@
       ],
       "responses": [
         "باقي مكيناش معلومة مؤكدة على امتا غترجع الدراسة في البلاد .",
-        "مع العلم بان اقرب اجل ممكن هو من بعد ماتنتهي فترة الحجر الصحي واللي غاتسالي ف20 مارس 2019"
+        "مع العلم بان اقرب اجل ممكن هو من بعد ماتنتهي فترة الحجر الصحي واللي غاتسالي ف20 ماي 2020"
       ],
       "context_set": ""
     },
@@ -1111,8 +1156,13 @@
       "tag": "protectionfr",
       "patterns": [
         "wach n9der nproteger rassi mn corona",
+        "Kifax yemken n9iw rasna mn had mard",
+        "lma kay7mi mn corona",
         "Kifex n 7mi rasi men waba2",
+        "Hmi rassk mn corona",
         "kayfa na9di ala virus corona",
+        "kifach ma nete3adach bih",
+        "Ashno n9dar nder bach nhmi rassi",
         "kifach ntfadaw lmard",
         "Kifach nhmiw rassna mn Corona",
         "7tiyatat marid corona",
@@ -1161,7 +1211,13 @@
       "patterns": [
         "kifach kayntacher le virus",
         "kifach nta9l",
+        "wash corona kat3adi",
+        "Wach corona t9dar tji l 9tita diali",
+        "Wach corona te9dar tji l 9tot",
+        "wash corona kateadi",
+        "bghit ne3ref achnahoma toro9 bach kaynt9el l virus",
         "kifach kayntacher corona",
+        "kifach kayenta9el covid",
         "kintaqal mn insan n akhur",
         "kifach kayntacher lvirus",
         "kifach kayntaql",
@@ -1228,6 +1284,7 @@
       "patterns": [
         "wach kayn 3ilaj",
         "wach kayn vaccin",
+        "L9aw li9a7 ola mazal",
         "wach kayn dwa ta3 corona",
         "hal kayn chi dwa dyal corona",
         "imta ghayl9aw dwa",
