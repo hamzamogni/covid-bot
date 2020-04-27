@@ -41,7 +41,7 @@ class Crawler():
 
 		table = self.webpage.find("span", {"id": "مواقع_الحالات"}).parent.find_next("table").find("tbody").find_all("tr")[3:-1]
 
-		ret = {}
+		ret = []
 
 		for row in table:
 			title = row.find("a")
@@ -49,7 +49,7 @@ class Crawler():
 				title = title.text
 			else:
 				continue
-			ret[title] = row.find("td").text
+			ret.append({title: row.find("td").text}) 
 		return ret
 
 
