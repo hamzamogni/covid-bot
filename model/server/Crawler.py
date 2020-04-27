@@ -20,6 +20,7 @@ class Crawler():
 
 
 	def set_webpage(self, url):
+		# soup = BeautifulSoup.BeautifulSoup(content.decode('utf-8','ignore'))
 		page =  ul.urlopen(ul.Request(url, headers=self.http_headers))
 		self.webpage = BeautifulSoup(page.read(), "lxml")
 
@@ -29,6 +30,27 @@ class Crawler():
 			return self.webpage.find("td", text=country).find_parent("tr")
 		
 		return self.webpage.find("a", text=country).find_parent("tr")
+
+	def moroccan_regions(self):
+		try:
+			self.set_webpage("https://ar.wikipedia.org/wiki/%D8%AC%D8%A7%D8%A6%D8%AD%D8%A9_%D9%81%D9%8A%D8%B1%D9%88%D8%B3_%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8_2020")
+		except Exception as e:
+			return {
+				"error": "Something went wrong getting Moroccan HM page"
+			}
+
+		table = self.webpage.find("span", {"id": "مواقع_الحالات"}).parent.find_next("table").find("tbody").find_all("tr")[3:-1]
+
+		ret = {}
+
+		for row in table:
+			title = row.find("a")
+			if title is not None:
+				title = title.text
+			else:
+				continue
+			ret[title] = row.find("td").text
+		return ret
 
 
 	def get_countries(self):
@@ -64,7 +86,7 @@ class Crawler():
 				"suggestions": suggestions
 			}
 		
-		return {
+		data = {
 			"target": country,
 			"target_arab": str(TextBlob(country).translate(to="ar")),
 			"total_cases": row[1].text,
@@ -79,4 +101,10 @@ class Crawler():
 			"total_tests": row[10].text,
 			"tests_per_million": row[11].text,
 		}
+
+		if data["target"] == "Morocco":
+			data["regions"] = self.moroccan_regions()
+
+		
+		return data
 
