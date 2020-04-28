@@ -31,3 +31,11 @@ Route::get("/crawler/{country?}", function ($country = null) {
 	$response = Http::get("http://localhost:5000/crawler?country=" . $country);
 	return Response($response);
 });
+
+
+
+Route::get("/random_news/{category?}", function ($category = null)
+{
+	$response = Http::get("https://mouhim.com/api/news/random/" . $category );
+	return Response($response);
+});
