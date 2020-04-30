@@ -7,7 +7,6 @@ stemmer = LancasterStemmer()
 
 import os
 import io
-import unidecode
 import string as s
 
 class Net():
