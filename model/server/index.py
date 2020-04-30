@@ -13,7 +13,7 @@ app = Flask(__name__)
 def index(name=None):
     if request.method == 'POST':
         message = request.json['message']
-        message = message.translate(str.maketrans(" ", " ", string.punctuation))
+        message = message.translate(str.maketrans(" ", " ", string.punctuation + "؟"))
 
         if len(message) < 3:
         	message += "   "
