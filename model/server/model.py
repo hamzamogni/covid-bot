@@ -7,10 +7,17 @@ stemmer = LancasterStemmer()
 
 import os
 import io
+import unidecode
+import string as s
 
 class Net():
   def __init__(self, message):
     self.message = message
+
+    if all((True if x in s.printable + "éèçàùäëüïö" else False for x in message)):
+      self.lang = "latin"
+    else:
+      self.lang = "arabic"
 
 
   def bag_of_words(self, s, words):
@@ -28,7 +35,10 @@ class Net():
 
 
   def main(self):
-    data = json.load(io.open(os.getenv("JSON_PATH"), 'r', encoding='utf-8-sig'))
+    if self.lang == "latin":
+      data = json.load(io.open(os.getenv("JSON_LATIN"), 'r', encoding='utf-8-sig'))
+    else:
+      data = json.load(io.open(os.getenv("JSON_ARAB"), 'r', encoding='utf-8-sig'))
 
     words = []
     labels = []
@@ -53,7 +63,11 @@ class Net():
 
 
     headers = {"content-type": "application/json"}
-    json_response = requests.post(os.getenv("MODEL_API_URL"), data=my_data, headers=headers)
+    if self.lang == "latin":
+      json_response = requests.post(os.getenv("MODEL_LATIN_URL"), data=my_data, headers=headers)
+    else:
+      json_response = requests.post(os.getenv("MODEL_ARAB_URL"), data=my_data, headers=headers)
+    
 
     results = json.loads(json_response.text)
 
