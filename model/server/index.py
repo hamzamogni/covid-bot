@@ -3,6 +3,7 @@ from model import *
 from Crawler import Crawler
 
 from textblob import TextBlob
+import textblob
 import string
 
 
@@ -38,6 +39,10 @@ def crawl(name=None):
         if len(country) < 4:
             country = country.upper()
         else:
+            try:
+                country = str(TextBlob(country).translate(to="en"))
+            except textblob.exceptions.NotTranslated:
+                pass
             country = country.title()
         
 
