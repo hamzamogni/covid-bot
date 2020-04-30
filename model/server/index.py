@@ -35,17 +35,21 @@ def crawl(name=None):
         country = request.args.get('country')
         if country == None:
             return jsonify({"error": "invalid query parameters"})
-
+        
+        try:
+            if country == "المغرب":
+                country = "Morocco"
+            else:
+                country = str(TextBlob(country).translate(to="en"))
+        except textblob.exceptions.NotTranslated:
+            pass
+        
         if len(country) < 4:
             country = country.upper()
         else:
-            try:
-                country = str(TextBlob(country).translate(to="en"))
-            except textblob.exceptions.NotTranslated:
-                pass
             country = country.title()
         
-
+        print(country)
         crawler = Crawler()
         response = crawler.run(country)
         return jsonify(response)
