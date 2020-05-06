@@ -55,7 +55,10 @@
         "Madgan lakhbar nrassa",
         "3tini chi a5bar",
         "chi khbar",
-        "a5ir l25bar"
+        "chi akhbar",
+        "a5ir l25bar",
+        "kayn chi khbar",
+        "kayn chi akhbar"
       ],
       "responses": ["اخبار"],
       "context_set": ""
@@ -121,7 +124,8 @@
         "Mnchek ayjin z corona",
         "mnchek aymriden s corona",
         "mnchek aymoten s corona",
-        "Mnchek ayjin"
+        "Mnchek ayjin",
+        "Mchk l7alat aylan ghasad"
       ],
       "responses": ["The data here should be from api"]
     },
@@ -158,7 +162,6 @@
       "patterns": [
         "azoul",
         "azul",
-        "ahlan",
         "Manikantgit",
         "Manzakin",
         "Azoul",
@@ -166,7 +169,6 @@
         "Timnssiwin",
         "Tanmirt",
         "Timnsiwin",
-        "Labas dark",
         "Mat3awat",
         "manik Asstin tiwit",
         "Thena lou9et"
@@ -193,23 +195,38 @@
         "Matfhm walo Zabi"
       ],
       "responses": [
-        "شكرا على هاد الكلمات , الاحترام المتبادل احد اهم ركائز الحوار الثنائي"
+        "شكرا على هاد الكلمات، الاحترام المتبادل احد اهم ركائز الحوار الثنائي."
       ]
     },
     {
       "tag": "thanks3arans",
       "patterns": [
-        "chokran choukran Le3ez",
-        "chokraan beslama shukran",
-        "Chokeran merci bc",
-        "thank you Shokran mzn",
-        "lah y3awn afiin Walo safi",
+        "chokran",
+        "choukran",
+        "Le3ez",
+        "chokraan",
+        "beslama",
+        "shukran ela maelumat",
+        "beselama",
+        "Chokeran",
+        "merci bc",
+        "thank you",
+        "Shokran",
+        "mzn",
+        "lah y3awn",
+        "afiin",
+        "Walo safi",
         "lah yhafdak",
         "Sf lah y7efdeek",
         "shukran ela maelumat",
-        "bye thala ok",
-        "lah y3awn lay3awn",
-        "bonne réponse beselama"
+        "thala",
+        "bye",
+        "lah y3awn",
+        "lay3awn",
+        "ok",
+        "bonne réponse",
+        "beselama",
+        "Bravo 3likom"
       ],
       "responses": [
         "مرحبا , ماتنساش ديما تغسل يديك , تلبس الكمامات الى كانتي خارج ومتخرجش غير للضرورة . "
@@ -230,21 +247,25 @@
         "slt",
         "slm",
         "fin a khona",
-        "salam 3alaykom",
+        "hey",
+        "hello",
+        "hi",
         "salamo3alaykom",
-        "salm",
+        "salam 3alaykom",
         "slam",
+        "salm",
         "hai",
         "hii",
-        "bonjour",
         "sahm",
+        "bonjour",
         "bonsoir",
         "cc",
         "coucou",
         "coco",
         "bnsr",
         "bjr",
-        "Aywa wach"
+        "bnjr",
+        "bsr"
       ],
       "responses": [
         "السلام انا سهم , اول بوت بالدارجة المغربية على كورونا . عندك شي اسئلة على كوفيد19 , سولني وأنا غانجاوبك . انا باقي فمرحلة ديال التطوير , لذلك كانتمنا تسولوا بزاف دالاسئلة باش نتعلم منها ",
@@ -278,7 +299,7 @@
         "are u humain"
       ],
       "responses": [
-        "ا انا سهم , بوت مطور بتقنيات الذكاء الصناعي ,تم الانشاء ديالي من طرف مجموعة من الباحثين فالذكاء الاصطناعي. الهدف من الانشاء ديالي هو الاجابة عن الاسئلة المتعلقة بكورونا بالدارجة انا فعمري دابا 4 ايام وانا باقي فمرحلة التطوير كانتمنا تسولوني اكثر عدد ديال الاسئلة غادي  يخليني نتعلم اكثر الى بغيتو تعرفو اكثر على الناس اللي صاوبوني ها لي ليان ",
+        "انا سهم , بوت مطور بتقنيات الذكاء الصناعي ,تم الانشاء ديالي من طرف مجموعة من الباحثين فالذكاء الاصطناعي. الهدف من الانشاء ديالي هو الاجابة عن الاسئلة المتعلقة بكورونا بالدارجة انا فعمري دابا 4 ايام وانا باقي فمرحلة التطوير كانتمنا تسولوني اكثر عدد ديال الاسئلة غادي  يخليني نتعلم اكثر الى بغيتو تعرفو اكثر على الناس اللي صاوبوني ها لي ليان ",
         "https://www.linkedin.com/in/safoinme/",
         "https://www.linkedin.com/in/mourad-gridach-17b24320/",
         "https://www.linkedin.com/in/hamza-mogni/",
@@ -527,11 +548,11 @@
         "ch7al mn wa7d bra",
         "Ch7aal wslna mn 7ala",
         "3adad halat flmghrib",
-        "3adad 7alat flmghrib",
-        "3adad l7alat flmghrib",
         "Ch7al wsel lmghrib f corona",
         "X7al mn 7ala kayna f lm4rib daba",
-        "3adad halat flmghrib"
+        "3adad halat flmghrib",
+        "3adad 7alat corona felmaghrib",
+        "Ch7al waslin dyal l7alat"
       ],
       "responses": ["The data here should be from api"]
     },
@@ -622,7 +643,8 @@
         "ch7al kay3ich covid jism",
         "ch7al 3ad ybano a3rad dyalo",
         "a3rad moda corona",
-        "a3rad fatrat hadana virus"
+        "a3rad fatrat hadana virus",
+        "kifash n3ref wach fiya corona"
       ],
       "responses": [
         " تتمثل الأعراض الأكثر شيوعاً لمرض كوفيد-19 في",
@@ -653,7 +675,9 @@
         "ghadi n9raw 3awtani",
         "ghadi y9raw",
         "yqraw",
-        "rojo3 9raya"
+        "rojo3 9raya",
+        "Wach kayna l9raya",
+        "An9raw"
       ],
       "responses": [
         "باقي مكيناش معلومة مؤكدة على امتا غترجع الدراسة في البلاد .",
@@ -727,7 +751,8 @@
         "kefach n7mi rasi man corona",
         "kefach ne7mi rasi men corona",
         "kifach na7mi rassi men corona",
-        "ila fik sekhana ach khassk dir"
+        "ila fik sekhana ach khassk dir",
+        "Kifach nkon wa3i"
       ],
       "responses": [
         "نظف يديك جيداً بانتظام بفركهما بمطهر كحولي لليدين أو بغسلهما بالماء والصابون. احتفظ بمسافة لا تقل عن متر واحد بينك وبين أي شخص يسعل أو يعطس. تجنب لمس عينيك وأنفك وفمك. تأكد من اتّباعك أنت والمحيطين بك لممارسات النظافة التنفسية الجيدة. ويعني ذلك أن تغطي فمك وأنفك بكوعك المثني أو بمنديل ورقي عند السعال أو العطس، ثم التخلص من المنديل المستعمل على الفور. تجنب الاتصال المباشر مع أي شخص يعاني من الأعراض المذكورة أو الالتهاب التنفسي الحاد. اطلع باستمرار على آخر تطورات مرض كوفيد-19. واتّبع المشورة التي يسديها مقدم الرعاية الصحية أو سلطات الصحة العمومية الوطنية والمحلية أو صاحب العمل بشأن كيفية حماية نفسك والآخرين من مرض كوفيد-19."
