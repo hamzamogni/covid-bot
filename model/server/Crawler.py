@@ -85,21 +85,22 @@ class Crawler():
 				"error": "Country not found",
 				"suggestions": suggestions
 			}
+
 		
 		data = {
 			"target": country,
 			"target_arab": str(TextBlob(country).translate(to="ar")),
-			"total_cases": row[1].text,
-			"new_cases": "+0" if row[2].text == "" else row[2].text,
-			"total_deaths": row[3].text,
-			"new_deaths": "+0" if row[4].text == "" else row[4].text,
-			"total_recovered": row[5].text,
-			"active_cases": row[6].text,
-			"serious_critical": row[7].text,
-			"tot_cases_per_million": row[8].text,
-			"deaths_per_million": row[9].text,
-			"total_tests": row[10].text,
-			"tests_per_million": row[11].text,
+			"total_cases": row[2].text,
+			"new_cases": "+0" if row[3].text == "" else row[3].text,
+			"total_deaths": row[4].text,
+			"new_deaths": "+0" if row[5].text == "" else row[5].text,
+			"total_recovered": row[6].text,
+			"active_cases": row[7].text,
+			"serious_critical": row[8].text,
+			"tot_cases_per_million": row[9].text,
+			"deaths_per_million": row[10].text,
+			"total_tests": row[11].text,
+			"tests_per_million": row[12].text,
 		}
 
 		if data["target"] == "Morocco":
